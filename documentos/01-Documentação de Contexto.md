@@ -10,9 +10,6 @@ A existência de um ambiente escolar arcaico na era da tecnologia afeta diretame
 
 Concluímos que, não há suporte suficiente para atender às necessidades de pais e responsáveis que querem se manter informados sobre a vida escolar de seus filhos. Assim sendo, a ausência desse tipo de tecnologia coloca os funcionários da escola e os pais à mercê de soluções ultrapassadas.
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
-
 ## Objetivos
 
 [Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
