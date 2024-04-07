@@ -7,7 +7,27 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil 1: Secretário(a) </th>
+</tr>
+<tr>
+<td width="150px"><b>Descrição</b></td>
+<td width="600px">Secretário(a) escolar</td>
+</tr>
+<tr>
+<td><b>Necessidades</b></td>
+<td>
+1. Registrar e divulgar informações relacionadas a datas comemorativas na instituição de ensino 
+2. Obter comunicados de pais e responsáveis 
+3. Enviar comunicados a pais e responsáveis
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<tbody>
+<tr align=center>
+<th colspan="2">Perfil 2: </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
