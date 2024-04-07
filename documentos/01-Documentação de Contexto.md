@@ -33,12 +33,10 @@ Em suma, o projeto busca gerar praticidade, minimizar falhas e impulsionar a com
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Este projeto visa três públicos-alvo, todos do tipo B2C (pessoa física). O primeiro perfil afetado inclui professores e secretários escolares da rede de ensino fundamental que necessitam de um recurso para catalogar informações relacionadas aos alunos.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
+O segundo grupo engloba pais e responsáveis de qualquer idade, com ao menos um filho ou filha matriculado(a) em rede de ensino fundamental, que procuram estar presentes na vida de seus filhos, se preocupando com o desempenho e a vida escolar do aluno.
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
+Por último, os alunos, que podem ter entre 6 e 14 anos e devem estar devidamente matriculados em uma instituição de ensino fundamental.
+Exemplo de Persona: a professora Suzany (25 anos) dá aula para Marcelo (7 anos), que sempre tira notas bem altas. Druidas e Monica, pais de Marcelo, sempre acompanham o desenvolvimento escolar do filho e o levam para a escola antes do trabalho, pois moram no bairro Floresta, o mesmo da instituição.
 
