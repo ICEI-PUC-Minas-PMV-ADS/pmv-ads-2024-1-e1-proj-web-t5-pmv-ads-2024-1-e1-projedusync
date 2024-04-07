@@ -16,8 +16,11 @@ O objetivo principal deste trabalho é desenvolver um sistema web front-end que 
 Enquanto objetivos específicos, podem-se destacar:
  
 • Inserir notas e frequências dos alunos.
+
 • Disponibilizar histórico de notas e frequências dos alunos.
+
 • Enviar e receber recados da secretaria da escola.
+
 • Registrar observações relacionadas ao comportamento e desempenho do aluno.
 
 ## Justificativa
