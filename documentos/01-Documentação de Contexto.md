@@ -1,9 +1,14 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+Segundo o documento de legislação escolar, fornecido pelo Ministério da Educação (MEC), o gestor escolar exerce uma função de suma importância para a organização do ambiente educacional como um todo. Além disso, a administração dirigida pelo gestor tem como propósito a manutenção de práticas já existentes, além da possibilidade de novas soluções para problemas estruturais. Essas ações são realizadas juntamente com o corpo docente de forma democrática.
+
+Partindo do princípio de que o mundo contemporâneo está cada vez mais conectado de uma forma geral, para o ambiente escolar, não seria diferente. Portanto, é importante a implementação de sistemas tecnológicos para o avanço e melhoria nos processos de gestão escolar.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
+
+A existência de um ambiente escolar arcaico na era da tecnologia afeta diretamente a rotina de trabalho diária dos professores. A partir disso, nota-se que essa adversidade ocasiona falhas constantes com relação ao registro de notas, frequências e observações sobre um aluno. Além disso, a falta de praticidade e otimização afeta a eficiência do profissional responsável por essa demanda.
+
+Concluímos que, não há suporte suficiente para atender às necessidades de pais e responsáveis que querem se manter informados sobre a vida escolar de seus filhos. Assim sendo, a ausência desse tipo de tecnologia coloca os funcionários da escola e os pais à mercê de soluções ultrapassadas.
 
 Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
 
