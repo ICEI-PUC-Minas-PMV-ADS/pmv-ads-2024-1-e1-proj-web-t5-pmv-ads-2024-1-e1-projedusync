@@ -1,10 +1,10 @@
 # Título do Projeto
 
-ANÁLISE E DESENVOLVIMENTO DE SISTEMAS
+`Análise e Desenvolvimento de Sistemas - PUC Minas`
 
-PROJETO DESENVOLVIMENTO APLICAÇÃO WEB
+`Desenvolvimento de aplicação web front-end`
 
-PRIMEIRO SEMESTRE DE 2024
+`1º semestre/2022`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
