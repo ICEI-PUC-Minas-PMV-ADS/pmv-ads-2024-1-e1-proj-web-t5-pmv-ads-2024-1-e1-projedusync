@@ -98,8 +98,14 @@
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Professor(a)       | conseguir trabalhar com praticidade e agilidade    | ter mais tempo para desenvolver atividades educacionais |
+| Aluno(a)           | acessar minhas notas o mais rápido possível        | para saber se devo melhorar meu desempenho              |
+| Responsável        | acompanhar a vida escolar do meu filho                       | saber como e onde devo ajudá-lo               |
+| Responsável        | acompanhar as datas e feriados importantes                   | me programar melhor                           |
+| Secretário(a) escolar | receber comunicados dos pais                              | obter informações sobre o aluno de forma prática  |
+| Secretário(a) escolar | poder transmitir observações aos pais                     | informá-los com mais rapidez e clareza  |
+| Professor(a)  | registrar informações dos alunos para os responsáveis | conscientizá-los sobre o desempenho do(a) aluno(a) |
+
 
 ## Requisitos do Projeto
 
