@@ -122,8 +122,10 @@
 
 |ID      | Descrição               |Prioridade |
 |--------|-------------------------|----|
-| RNF-01 |  ...                    | ...   | 
-| ...    |  ...                    | ...   | 
+|RNF-01| A aplicação deve ser responsiva, permitindo acesso e visualização em dispositivos diversos.   | ALTA | 
+|RNF-02| A aplicação deve ser intuitiva, facilitando o uso por responsáveis, professores e alunos.   | ALTA | 
+|RNF-03| A aplicação deve ser compatível com os principais navegadores do mercado.   | ALTA | 
+|RNF-04| A aplicação deve oferecer linguagem acessível e de fácil compreensão.   | MÉDIA |
 
 **Prioridade: Alta / Média / Baixa. 
 
