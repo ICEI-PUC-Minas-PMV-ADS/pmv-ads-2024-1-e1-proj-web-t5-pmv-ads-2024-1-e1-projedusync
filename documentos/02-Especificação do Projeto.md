@@ -27,15 +27,18 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 2: </th>
+<th colspan="2">Perfil 2: Professor(a)</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Professor(a) de escola do ensino fundamental</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+1. Registrar notas e desempenho de alunos
+2. Cadastrar frequência de modo prático
+</td>
 </tr>
 </tbody>
 </table>
@@ -43,15 +46,21 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 3: </th>
+<th colspan="2">Perfil 3: Responsável</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Responsável de aluno do ensino fundamental
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+1. Acompanhar o desempenho educacional do(a) filho(a)
+2. Ter acesso a datas importantes de eventos escolares
+3. Saber as notas do(a) filho(a)
+4. Avisar com antecedência e de modo prático sobre a ausência do(a) filho(a)
+</td>
 </tr>
 </tbody>
 </table>
@@ -59,15 +68,20 @@
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil 4: </th>
+<th colspan="2">Perfil 4: Aluno(a)</th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Aluno(a) do ensino fundamental
+</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>
+1. Acessar notas de modo fácil e rápido
+2. Saber datas importantes
+3. Conhecer a grade de matérias com os respectivos horários
+</td>
 </tr>
 </tbody>
 </table>
