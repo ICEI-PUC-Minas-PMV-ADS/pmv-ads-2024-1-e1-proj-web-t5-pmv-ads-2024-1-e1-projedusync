@@ -12,17 +12,21 @@ Concluímos que, não há suporte suficiente para atender às necessidades de pa
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
+O objetivo principal deste trabalho é desenvolver um sistema web front-end que poderá auxiliar professores da rede de ensino fundamental, tanto pública quanto privada. Com isso, possibilitando aos pais e responsáveis o acesso a informações relacionadas aos alunos, facilitando e agilizando a comunicação entre ambas as partes.
+Enquanto objetivos específicos, podem-se destacar:
  
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+• Inserir notas e frequências dos alunos.
+• Disponibilizar histórico de notas e frequências dos alunos.
+• Enviar e receber recados da secretaria da escola.
+• Registrar observações relacionadas ao comportamento e desempenho do aluno.
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+O ambiente educacional carece de um sistema responsável por auxiliar o corpo docente e a secretaria na execução de demandas do cotidiano escolar, com o objetivo de registrar e disseminar informações relacionadas aos alunos, permitindo o aumento da interação dos pais com a escola e mantendo-os atualizados sobre o rendimento dos estudantes.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
+Dessa forma, o desenvolvimento de um sistema de gestão educacional é importante para facilitar, organizar e permitir o processo de integração pedagógica, assim como a comunicação escolar.
 
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Em suma, o projeto busca gerar praticidade, minimizar falhas e impulsionar a comunicação, sendo extremamente benéfico para todas as partes (alunos, pais, professores e secretários escolares), reduzindo também o uso de papel, promovendo sustentabilidade. 
 
 ## Público-Alvo
 
