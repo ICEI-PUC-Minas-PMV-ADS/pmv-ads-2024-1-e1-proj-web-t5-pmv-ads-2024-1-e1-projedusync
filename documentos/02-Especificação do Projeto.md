@@ -15,11 +15,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-<ol>
+  <ol>
 <li>Registrar e divulgar informações relacionadas a datas comemorativas na instituição de ensino;</li>
 <li>Obter comunicados de pais e responsáveis;</li>
 <li>Enviar comunicados a pais e responsáveis.</li>
-</ol>
+  </ol>
 </td>
 </tr>
 </tbody>
@@ -37,8 +37,10 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Registrar notas e desempenho de alunos;
-2. Cadastrar frequência de modo prático.
+  <ol>
+<li>Registrar notas e desempenho de alunos;</li>
+<li>Cadastrar frequência de modo prático.</li>
+  </ol>
 </td>
 </tr>
 </tbody>
@@ -57,10 +59,12 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Acompanhar o desempenho educacional do(a) filho(a);
-2. Ter acesso a datas importantes de eventos escolares;
-3. Saber as notas do(a) filho(a);
-4. Avisar com antecedência e de modo prático sobre a ausência do(a) filho(a).
+  <ol>
+<li>Acompanhar o desempenho educacional do(a) filho(a);</li>
+<li>Ter acesso a datas importantes de eventos escolares;</li>
+<li>Saber as notas do(a) filho(a);</li>
+<li>Avisar com antecedência e de modo prático sobre a ausência do(a) filho(a).</li>
+  </ol>
 </td>
 </tr>
 </tbody>
@@ -79,9 +83,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Acessar notas de modo fácil e rápido;
-2. Saber datas importantes;
-3. Conhecer a grade de matérias com os respectivos horários.
+  <ol>
+<li>Acessar notas de modo fácil e rápido;</li>
+<li>Saber datas importantes;</li>
+<li>Conhecer a grade de matérias com os respectivos horários.</li>
+  </ol>
 </td>
 </tr>
 </tbody>
