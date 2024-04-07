@@ -15,9 +15,11 @@
 <tr>
 <td><b>Necessidades</b></td>
 <td>
-1. Registrar e divulgar informações relacionadas a datas comemorativas na instituição de ensino;  
-2. Obter comunicados de pais e responsáveis;
-3. Enviar comunicados a pais e responsáveis.
+<ol>
+<li>Registrar e divulgar informações relacionadas a datas comemorativas na instituição de ensino;</li>
+<li>Obter comunicados de pais e responsáveis;</li>
+<li>Enviar comunicados a pais e responsáveis.</li>
+</ol>
 </td>
 </tr>
 </tbody>
