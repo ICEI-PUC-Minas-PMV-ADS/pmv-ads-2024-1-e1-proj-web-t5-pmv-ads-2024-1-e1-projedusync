@@ -4,7 +4,7 @@
 
 `Desenvolvimento de aplicação web front-end`
 
-`1º semestre/2024`
+`Eixo 1/2024`
 
 O objetivo principal deste trabalho é desenvolver um sistema web front-end que poderá auxiliar professores da rede de ensino fundamental, tanto pública quanto privada. Com isso, possibilitando aos pais e responsáveis o acesso a informações relacionadas aos alunos, facilitando e agilizando a comunicação entre ambas as partes. 
 
