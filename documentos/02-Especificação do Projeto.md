@@ -118,7 +118,7 @@
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
 | RF-01 |  A aplicação deve permitir ao professor(a) registrar frequência, notas e observações sobre os alunos. | ALTA | 
-| RF-02 |  ...                    | ...   |
+| RF-02 |  A aplicação deve permitir ao professor(a) e aos responsáveis acessar com login com usuário e senha.  | ALTA |
 
 **Prioridade: Alta / Média / Baixa. 
 
