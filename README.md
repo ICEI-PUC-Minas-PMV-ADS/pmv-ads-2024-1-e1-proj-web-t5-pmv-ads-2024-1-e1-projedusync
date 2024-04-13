@@ -1,4 +1,4 @@
-# Título do Projeto
+# EduSync
 
 `Análise e Desenvolvimento de Sistemas - PUC Minas`
 
