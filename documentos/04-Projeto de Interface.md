@@ -3,7 +3,7 @@
 
 ## User Flow
 
-Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapear todo fluxo de navegação do usuário na aplicação. Essa técnica funciona para alinhar os caminhos e as possíveis ações que o usuário pode fazer junto com os membros de sua equipe.
+O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue.
 
 ![Untitled Diagram-Page-1 drawio (2)](./img/Edusync/ImagensEdusync2.png) 
 
@@ -13,10 +13,6 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
     <figcaption>Figura 1 - Fluxo de telas do usuário (secretário)
 </figure> 
 
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
 
 ## Protótipo
 
@@ -35,6 +31,19 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <figure>
     <figcaption>Figura 2 - Estrutura padrão do site
   </figure>
+
+  <hr>
+
+<h3><b>Tela – Login</b></h3>
+<p>A tela de Login apresenta campos para a inserção do e-mail, credencial e da senha. </p>
+  
+  ![login](./img/Edusync/Login1.png)
+
+
+<figure> 
+    <figcaption>Figura 3 - Tela de acesso à conta do usuário
+</figure>
+<hr>
 
 
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
