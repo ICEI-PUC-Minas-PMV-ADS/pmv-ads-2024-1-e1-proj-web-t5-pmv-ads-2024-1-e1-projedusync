@@ -42,15 +42,19 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+As ferramentas empregadas no projeto são:
 
-Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
+- Editor de código
+- Ferramentas de comunicação
+- Ferramentas de desenho de tela (wireframing)
+
+Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e MarvelApp. A relação dos ambientes com o respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/README.md                                        |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/blob/main/documentos/                          |
-| Projeto de Interface                | Figma                              | http://....                            |
+| Projeto de Interface                | MarvelApp                          | https://marvelapp.com/prototype/c6jcd01/screen/94366660                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
