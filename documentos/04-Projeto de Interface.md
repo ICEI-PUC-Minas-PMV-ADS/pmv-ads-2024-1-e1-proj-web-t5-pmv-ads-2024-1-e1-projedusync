@@ -66,6 +66,16 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Avisos</b></h3>
+<p>A tela de avisos se destina a comunicação entre os usuários. </p>
+  
+![avisos](./img/Edusync/Avisos.png)
+
+<figure> 
+  <figcaption>Figura 6 - Tela de comunicação
+</figure> 
+<hr>
+
 
 
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
