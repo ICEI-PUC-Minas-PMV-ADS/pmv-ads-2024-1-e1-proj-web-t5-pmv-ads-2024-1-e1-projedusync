@@ -59,7 +59,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Home page</b></h3>
 <p>A tela de home page apresenta um menu e alguns banners como opções para o usuário selecionar. </p>
   
-![homepage](./img/Edusync/HubSecretário.png)
+![Homepage](./img/Edusync/HubSecretário.png)
 
 <figure> 
   <figcaption>Figura 5 - Tela home page
@@ -69,10 +69,20 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 <h3><b>Tela - Avisos</b></h3>
 <p>A tela de avisos se destina a comunicação entre os usuários. </p>
   
-![avisos](./img/Edusync/Avisos.png)
+![Avisos](./img/Edusync/Avisos.png)
 
 <figure> 
   <figcaption>Figura 6 - Tela de comunicação
+</figure> 
+<hr>
+
+<h3><b>Tela - Boletim</b></h3>
+<p>A tela de boletim apresenta as notas dos alunos de todos os bimestres, de todas as disciplinas e a situação final, informando se o aluno foi aprovado ou reprovado. </p>
+  
+![Boletim](./img/Edusync/Boletim.png)
+
+<figure> 
+  <figcaption>Figura 7 - Tela de notas dos alunos
 </figure> 
 <hr>
 
