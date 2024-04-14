@@ -45,13 +45,24 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure>
 <hr>
 
+<h3><b>Tela – Cadastro</b></h3>
+<p>A tela de cadastro apresenta os seguintes campos para a inserção das informações pessoais do usuário: Nome Completo, E-mail, Disciplina, Escola e Senha.</p>
+  
+  ![cadastro](./img/Edusync/CadastroProfessor.png)
+
+
+<figure> 
+    <figcaption>Figura 4 - Tela de cadastro de usuários
+</figure>
+<hr> 
+
 <h3><b>Tela - Home page</b></h3>
 <p>A tela de home page apresenta um menu e alguns banners como opções para o usuário selecionar. </p>
   
 ![homepage](./img/Edusync/HubSecretário.png)
 
 <figure> 
-  <figcaption>Figura 4 - Tela home page
+  <figcaption>Figura 5 - Tela home page
 </figure> 
 <hr>
 
