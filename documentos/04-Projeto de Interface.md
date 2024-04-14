@@ -31,7 +31,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </ul> 
 
 
-  ![baixa fidelidade](./img/EduSync/Conteudo.jpeg)
+  ![](./img/EduSync/Conteudo.jpeg)
   <figure>
     <figcaption>Figura 2 - Estrutura padrão do site
     </figure>
