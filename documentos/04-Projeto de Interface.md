@@ -7,7 +7,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ![Untitled Diagram-Page-1 drawio (2)](./img/Edusync/ImagensEdusync2.png) 
 
-
+![](./img/EduSync/conteudo.jpg)
 
 <figure> 
     <figcaption>Figura 1 - Fluxo de telas do usuário (secretário)
@@ -31,7 +31,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </ul> 
 
 
-  ![](./img/EduSync/Conteudo.jpeg)
+  
   <figure>
     <figcaption>Figura 2 - Estrutura padrão do site
     </figure>
