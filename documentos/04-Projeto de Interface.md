@@ -45,6 +45,17 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure>
 <hr>
 
+<h3><b>Tela - Home page</b></h3>
+<p>A tela de home page apresenta um menu e alguns banners como opções para o usuário selecionar. </p>
+  
+![homepage](./img/Edusync/HubSecretário.png)
+
+<figure> 
+  <figcaption>Figura 4 - Tela home page
+</figure> 
+<hr>
+
+
 
 [Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
 
