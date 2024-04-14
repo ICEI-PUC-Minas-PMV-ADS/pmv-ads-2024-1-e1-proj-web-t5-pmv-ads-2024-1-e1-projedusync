@@ -82,18 +82,17 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
+<h3><b>Tela - Datas e Eventos</b></h3>
+<p>A tela de datas e eventos apresenta o cronograma de datas comemorativas que ocorrem durante o ano letivo e eventos programados pela escola, como por exemplo, reunião de pais.</p>
+  
+![Datas e Eventos](./img/Edusync/DatasEventos.png)
+
+<figure> 
+  <figcaption>Figura 8 - Tela de datas e eventos
+</figure> 
+<hr>
 
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
-
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
- 
-> **Links Úteis**:
-> - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
->- Ferramentas:
->> - [Pencil](https://pencil.evolus.vn/)
->> - [MarvelApp](https://marvelapp.com/)
->> - [Figma](https://www.figma.com/)
 
 
 
