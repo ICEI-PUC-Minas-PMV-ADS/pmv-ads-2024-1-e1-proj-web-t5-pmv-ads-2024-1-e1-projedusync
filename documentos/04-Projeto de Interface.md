@@ -14,13 +14,9 @@ O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário p
 </figure> 
 
 
-## Protótipo
+## Protótipo de baixa fidelidade
 
-Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas de validar uma ideia, conceito ou funcionalidade. Isso permite a interação, avaliação, modificação e aprovação das principais características de uma interface antes de entrar na fase de desenvolvimento. Leia o artigo [Protótipos: baixa, média ou alta fidelidade?](https://medium.com/ladies-that-ux-br/prot%C3%B3tipos-baixa-m%C3%A9dia-ou-alta-fidelidade-71d897559135).
-
-### Protótipo de baixa fidelidade
-
-As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 3 grandes blocos, descritos a seguir. São eles:
+As telas do sistema apresentam uma estrutura comum que é apresentada na figura 2. Nesta estrutura existem 2 grandes blocos, descritos a seguir. São eles:
 <ul>
   <li>Cabeçalho - local onde estão dispostos o nome da aplicação web e navegação principal do site (menu da aplicação);</li>
   <li>Conteúdo - apresenta o conteúdo da tela em questão;</li>
@@ -35,7 +31,7 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
   <hr>
 
 <h3><b>Tela – Login</b></h3>
-<p>A tela de Login apresenta campos para a inserção do e-mail, credencial e da senha. </p>
+<p>A tela de Login apresenta campos para a seleção da credencial e inserção da matrícula e da senha. </p>
   
   ![login](./img/Edusync/Login1.png)
 
