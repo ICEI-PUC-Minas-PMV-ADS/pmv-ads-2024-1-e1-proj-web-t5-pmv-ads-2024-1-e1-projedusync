@@ -3,7 +3,7 @@
 
 ## User Flow
 
-O fluxograma apresentado na figura 1 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o <a href="https://marvelapp.com/prototype/c6jcd01?emb=1&iosapp=false&frameless=false">ambiente MarvelApp do projeto</a>.
+O fluxograma apresentado na figura 1 mostra os fluxos de interação dos usuários pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Protótipo de baixa fidelidade que se segue. Para visualizar o protótipo interativo, acesse o <a href="https://marvelapp.com/prototype/c6jcd01?emb=1&iosapp=false&frameless=false">ambiente MarvelApp do projeto</a>. Para ver o fluxograma na íntegra, acesse o <a href="https://www.figma.com/file/kWTpDr4UZw6R66CtuZeOl8/EduSync?type=whiteboard&node-id=405-749">Figma</a>.
 
 ![Untitled Diagram-Page-1 drawio (2)](./img/Edusync/userflow.png) 
 
