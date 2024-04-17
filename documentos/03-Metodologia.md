@@ -56,7 +56,7 @@ Os artefatos do projeto são desenvolvidos a partir das plataformas GitHub e Mar
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/README.md                                        |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/ads-e1-exemplo-vida-de-estudante/blob/main/documentos/                          |
-| Projeto de Interface                | MarvelApp                          | https://marvelapp.com/prototype/c6jcd01/screen/94366660                            |
+| Projeto de Interface                | MarvelApp e Figma                          | https://marvelapp.com/prototype/c6jcd01/screen/94366660 / https://www.figma.com/file/kWTpDr4UZw6R66CtuZeOl8/EduSync?type=whiteboard&node-id=405-749                            |
 | Gerenciamento do Projeto            | GitHub Projects                    | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/projects/987                          |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
