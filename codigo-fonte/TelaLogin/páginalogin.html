@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="páginalogin.css">
+<script src="páginalogin.js"></script>
+
+<head>
+    <title>EduSync - Sistema Auxiliar Educacional</title>
+
+</head>
+
+<body>
+    <header>
+        <img id="logoEduSync" src="img/Logo_EduSync.png" alt="Logo EduSync" width="25%">
+    </header>
+    <main>
+        <!-- -->
+        <h1 class="login">Login</h1>
+        <p class="login">Selecione sua credencial e digite os dados de acesso para entrar no sistema.</p>
+        <fieldset id="formLogin">
+            <form name="formularioLogin" action="do_login.html" method="POST">
+                <label for="credencial"></label>
+                <select name="credencial" id="credencial">
+                    <option value="secretario">Selecionar credencial</option>
+                    <option value="secretario">Secretário(a)</option>
+                    <option value="professor">Professor(a)</option>
+                    <option value="responsavel">Responsável</option>
+                    <option value="aluno">Aluno(a)</option>
+                </select><br>
+                <input type="number" name="matricula" value="" placeholder="Matrícula" maxlength="20" required><br>
+                <input type="password" name="senha" value="" placeholder="Senha"><br>
+                <input type="submit" value="Entrar">
+            </form>
+        </fieldset>
+        <p class="login">Esqueceu a senha?</p>
+    </main>
+</body>
+<footer>
+    <img src="img/EduSyncPNG.png">
+    <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+    </p>
+</footer>
+
+</html>
