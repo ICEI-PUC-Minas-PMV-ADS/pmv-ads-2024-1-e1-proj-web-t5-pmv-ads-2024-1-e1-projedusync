@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="telaAvisos.css"></head>
+<body>
+<header>
+
+
+</header>
+
+<main>
+<h1>Avisos</h1>
+<form name="formularioAviso" action="do_registro.html" method="POST">
+    <label for="aviso"></label>
+    <select name="anoLetivo" id="anoLetivo">
+        <option value="selecionarAnoLetivo">Selecionar ano letivo</option>
+        <option value="ano1">1º ano</option>
+        <option value="ano2">2º ano</option>
+        <option value="ano3">3º ano</option>
+        <option value="ano4">4º ano</option>
+    </select><br>
+    <select name="ano" id="menuAviso">
+        <option value="secretario">Selecionar credencial</option>
+        <option value="secretario">Secretário(a)</option>
+        <option value="professor">Professor(a)</option>
+        <option value="responsavel">Responsável</option>
+        <option value="aluno">Aluno(a)</option>
+    </select><br>
+    <select name="aviso" id="menuAviso">
+        <option value="secretario">Selecionar credencial</option>
+        <option value="secretario">Secretário(a)</option>
+        <option value="professor">Professor(a)</option>
+        <option value="responsavel">Responsável</option>
+        <option value="aluno">Aluno(a)</option>
+    </select><br>
+    <input type="number" name="matricula" value="" placeholder="Matrícula" maxlength="20" required><br>
+    <input type="password" name="senha" value="" placeholder="Senha"><br>
+    <input type="submit" value="Entrar">
+</form>
+<textarea></textarea>
+</main>
+
+<footer>
+    <img src="img/iconEduSync.png" width="30" height="25">
+    <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+    </p>
+</footer>
+
+</body>
+
+
+</html>
