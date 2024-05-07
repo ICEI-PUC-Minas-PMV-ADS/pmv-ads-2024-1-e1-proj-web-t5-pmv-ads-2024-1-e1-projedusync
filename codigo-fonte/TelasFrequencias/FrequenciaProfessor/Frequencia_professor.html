@@ -18,14 +18,23 @@
             </div>
 
             <div class="nav-list">
+
                 <ul>
+
                     <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
                 </ul>
-
+                <style>
+                    li:hover {
+                       
+                        background-color: #004651;
+              
+                    }
+                    
+                </style>
             </div>
             <div class="pesquisa">
                 <input type="text" id="textpesquisa" placeholder="Pesquisa" />
@@ -39,73 +48,102 @@
             <h1>Frequência Alunos </h1>
         </div>
 
+        <div class="data">
+            <form action="/action_page.php">
+                <label for="Data">Data:</label>
+                <input type="date" id="Data" name="Data">
+                <input type="submit" value="Pesquisar">
+            </form>
 
+        </div>
+
+        <div class="turma" style="margin: 30px">
+
+            <form name="turma" action="do_Freq_Professor.html" method="post"></form>
+
+            <select name="Turma">
+                <option value="Selecionar Turma"> Selecionar Turma</option>
+                <option value="Turma 01"> Turma 01</option>
+                <option value="Turma 02"> Turma 02</option>
+                <option value="Turma 03"> Turma 03</option>
+                <option value="Turma 04"> Turma 04</option>
+            </select>
+        </div>
 
         <table>
-           
+
             <div id="tabela">
-               
+
                 <thead>
                     <tr>
-                        <th scope="col" >Aluno(a)</th>
+                        <th scope="col">Aluno(a)</th>
                         <th scope="col">Presença</th>
                         <th scope="col">Faltas</th>
-                       
+
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>Aluno 1 </td>
-                        <td><button type="button" class="button button1" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button type="button" class="button button1"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>1</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 2 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>2</td>
                     </tr>
 
                     <tr>
                         <td>Aluno 3 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
 
                     <tr>
                         <td>Aluno 4 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 5 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 6 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 7 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 8 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
                     <tr>
                         <td>Aluno 9 </td>
-                        <td><button class="button button1" type="submit" > ✔ </button> <button class="button button2" type="submit"> X </button></td>
+                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
+                                type="submit"> X </button></td>
                         <td>0</td>
 
                     </tr>
@@ -117,9 +155,12 @@
 
     <footer>
 
- <img src="images/logo.png" alt="logo" >Copy Right 2024 - Puc minas 
+        <img src="images/logo.png" alt="logo" width="30px" height="30px">
+        <p>
+            Copyright © 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
 
-     
+
     </footer>
 </body>
 
