@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cadastroResponsável.css">
+</head>
+
+<body>
+    <header>
+        <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="iconEduSync">EduSync</h1>
+    </header>
+    <main>
+        <h1>Cadastro de responsáveis</h1>
+        <p>Insira as informações relacionadas ao responsável que deseja cadastrar.</p><br>
+
+        <form name="cadastroResponsavel" action="do_cadastro.html" method="POST">
+            <label for="cadastroResponsavel"></label>
+            <input type="text" name="nomeResp" value="" placeholder="Nome completo" required><br>
+            <input type="text" name="emailResp" value="" placeholder="E-mail"><br>
+            <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)"><br>
+            <input type="text" name="senhaResp" value="" placeholder="Senha" required><br>
+            <input type="submit" name="enviarCadResp" value="Cadastrar" class="botaoMain">
+        </form>
+    </main>
+</body>
+<footer>
+    <img src="iconEduSync.png" width="30" height="25">
+    <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+    </p>
+</footer>
+
+</html>

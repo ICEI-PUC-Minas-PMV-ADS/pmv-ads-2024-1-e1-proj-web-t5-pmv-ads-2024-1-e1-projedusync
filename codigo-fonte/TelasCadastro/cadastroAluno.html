@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="cadastroAluno.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="headerEduSync"><img src="iconEduSync.png" alt="logo Edusync" width="71" height="62" id="iconEduSync">EduSync</h1>
+    </header>
+    <main>
+        <h1>Cadastro de alunos</h1>
+        <p>Insira as informações relacionadas ao aluno(a) que deseja cadastrar.</p><br>
+        <p
+
+        <form name="cadastroAluno" action="do_cadastro.html" method="POST">
+            <label for="cadastroAluno"></label>
+            <input type="text" name="nomeAluno" value="" placeholder="Nome completo*" required><br>
+            <input type="text" name="nomeRespAluno1" value="" placeholder="Nome do responsável 1*" required><br>
+            <input type="text" name="nomeRespAluno2" value="" placeholder="Nome do responsável 2"><br>
+            <input type="text" name="anoAluno" value="" placeholder="Ano escolar (ex: 3º ano)"><br>
+            <input type="text" name="turmaAluno" value="" placeholder="Turma"><br>
+            <input type="text" name="matriculaAluno" value="" placeholder="Número de matrícula*" required><br>
+            <input type="submit" name="enviarCadAluno" value="Cadastrar" class="botaoMain">
+        </form>
+    </main>
+</body>
+<footer>
+    <img src="iconEduSync.png" width="30" height="25">
+    <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+    </p>
+</footer>
+
+</html>
