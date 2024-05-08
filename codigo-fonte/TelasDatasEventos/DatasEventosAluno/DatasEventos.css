@@ -61,7 +61,35 @@
     height:20px;
   }
 
- 
+  #linha {
+    width: 50%;
+    border-bottom: 1px solid #000000;
+    padding: 40px;
+  }
+  
+  main h1 {
+    padding: 40px ;
+  }
+  
+  h2 {
+   padding: 20px;
+  }
+  
+  p {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 5px;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    background-color: #E5E9F2;
+    color: #000;
+  }
 
   
   

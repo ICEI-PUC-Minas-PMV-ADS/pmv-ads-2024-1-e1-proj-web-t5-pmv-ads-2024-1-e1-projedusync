@@ -52,7 +52,7 @@
   .input {
     border: none;
     padding: 10px 15px;
-    border-radius: 5px;
+    border-radius: 15px;
     display: flex;
   }
 
@@ -99,3 +99,13 @@
   padding-right: 0.200px;
   padding-top: 60px;
  }
+
+ footer {
+  text-align: center;
+  padding: 5px;
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  background-color: #E5E9F2;
+  color: #000;                                                    
+}                                                                                                                       
