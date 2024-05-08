@@ -11,6 +11,7 @@
   margin-left: 0;
   margin-right: 100;
   display: block;
+  padding-top: 20px;
 }
 
 #formLogin {
@@ -19,7 +20,7 @@
 }
 
 fieldset {
-  background-color: #eeeeee;
+  background-color: #E5E9F2;
   display: block;
   margin: 0 auto;
   width: 20%;
@@ -46,6 +47,17 @@ input {
   padding: 5px;
   margin: 5px;
   width: 30%;
+  border-color: #81848a;
+}
+
+select {
+  height: 30px;
+  border-color: #81848a;
+}
+
+#botaoEntrar {
+background-color: #004651;  
+color: #E5E9F2;
 }
 
 footer {
@@ -56,4 +68,4 @@ footer {
   position: fixed;
   background-color: #E5E9F2;
   color: #000;
-}
+  }
