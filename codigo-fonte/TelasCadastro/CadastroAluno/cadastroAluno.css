@@ -7,9 +7,8 @@
 }
 
 
-#iconEduSync
-{
-    padding-right: 5px;
+#iconEduSync {
+  padding-right: 5px;
 }
 
 main {
@@ -19,7 +18,7 @@ main {
 
 h1 {
   padding: 40px;
-  font-family: "Lato",sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 header {
@@ -30,10 +29,16 @@ header {
   align-items: center;
 }
 
+
 input {
-padding: 5px;
-margin: 3px;
-width: 30%;
+  padding: 5px;
+  margin: 3px;
+  width: 30%;
+}
+
+#botaoCadAluno {
+  background-color: #004651;
+  color: #E5E9F2;
 }
 
 footer {
@@ -42,7 +47,7 @@ footer {
   width: 100%;
   bottom: 0;
   position: fixed;
-  background-color:#E5E9F2;
+  background-color: #E5E9F2;
   color: #000;
 }
 
