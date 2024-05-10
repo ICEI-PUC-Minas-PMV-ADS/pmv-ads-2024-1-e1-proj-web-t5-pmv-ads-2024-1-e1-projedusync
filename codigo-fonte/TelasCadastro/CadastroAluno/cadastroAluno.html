@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastroAluno.css">
+    <script src="cadastroAluno.js"></script>
 </head>
 
 <body>
@@ -15,17 +16,18 @@
     <main>
         <h1>Cadastro de alunos</h1>
         <p>Insira as informações relacionadas ao aluno(a) que deseja cadastrar.</p><br>
-        <p <form name="cadastroAluno" action="do_cadastro.html" method="POST">
+        <form name="cadastroAluno" action="do_cadastro.html" method="POST" onsubmit="cadastrar(event)">
             <label for="cadastroAluno"></label>
-            <input type="text" name="nomeAluno" value="" placeholder="Nome completo*" required><br>
-            <input type="text" name="nomeRespAluno1" value="" placeholder="Nome do responsável 1*" required><br>
-            <input type="text" name="nomeRespAluno2" value="" placeholder="Nome do responsável 2"><br>
-            <input type="text" name="anoAluno" value="" placeholder="Ano escolar (ex: 3º ano)"><br>
-            <input type="text" name="turmaAluno" value="" placeholder="Turma"><br>
-            <input type="text" name="matriculaAluno" value="" placeholder="Número de matrícula*" required><br>
+            <input type="text" name="nomeAluno" value="" placeholder="Nome completo*" id="nomeAluno" required><br>
+            <input type="text" name="nomeRespAluno1" value="" placeholder="Nome do responsável 1*" id="nomeRespAluno1" required><br>
+            <input type="text" name="nomeRespAluno2" value="" placeholder="Nome do responsável 2" id="nomeRespAluno2" ><br>
+            <input type="text" name="anoAluno" value="" placeholder="Ano escolar (ex: 3º ano)" id="anoAluno" ><br>
+            <input type="text" name="turmaAluno" value="" placeholder="Turma" id="turmaAluno" ><br>
+            <input type="text" name="matriculaAluno" value="" placeholder="Número de matrícula*" id="matriculaAluno" required><br>
             <input type="submit" name="enviarCadAluno" value="Cadastrar" class="botaoMain" id="botaoCadAluno">
             </form>
     </main>
+    
 </body>
 <footer>
     <img src="iconEduSync.png" width="30" height="25">

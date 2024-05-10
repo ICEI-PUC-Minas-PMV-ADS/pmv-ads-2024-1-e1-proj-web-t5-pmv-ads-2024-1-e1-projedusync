@@ -16,6 +16,11 @@ main {
 
 }
 
+.iconeAddAluno {
+  width: 30px;
+  
+}
+
 #botaoCadResp {
   background-color: #004651;
   color: #E5E9F2;

@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastroResponsavel.css">
+    <script src="cadastroResponsavel.js"></script>
 </head>
 
 <body>
@@ -15,12 +16,12 @@
         <h1>Cadastro de responsáveis</h1>
         <p>Insira as informações relacionadas ao responsável que deseja cadastrar.</p><br>
 
-        <form name="cadastroResponsavel" action="do_cadastro.html" method="POST">
+        <form name="cadastroResponsavel" action="do_cadastro.html" method="POST" onsubmit="cadastrar(event)">
             <label for="cadastroResponsavel"></label>
-            <input type="text" name="nomeResp" value="" placeholder="Nome completo" required><br>
-            <input type="text" name="emailResp" value="" placeholder="E-mail"><br>
-            <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)"><br>
-            <input type="text" name="senhaResp" value="" placeholder="Senha" required><br>
+            <input type="text" name="nomeResp" value="" placeholder="Nome completo" id="nomeResp" required><br>
+            <input type="text" name="emailResp" value="" placeholder="E-mail" id="emailResp" ><br>
+            <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)" id="nomeAlunoResp"> <img class="iconeAddAluno" src="iconadd.png"><br>
+            <input type="password" name="senhaResp" value="" placeholder="Senha" id="senhaResp" required><br>
             <input type="submit" name="enviarCadResp" value="Cadastrar" class="botaoMain" id="botaoCadResp">
         </form>
     </main>

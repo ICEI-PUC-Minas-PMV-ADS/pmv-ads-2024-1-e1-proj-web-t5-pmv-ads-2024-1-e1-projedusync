@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="cadastroProfessor.css">
+    <script src="cadastroProfessor.js"></script>
 </head>
 
 <body>
@@ -15,14 +16,14 @@
         <h1>Cadastro de professores</h1>
         <p>Insira as informações relacionadas ao professor ou professora que deseja cadastrar.</p><br>
 
-        <form name="cadastroProfessor" action="do_cadastro.html" method="POST">
+        <form name="cadastroProfessor" action="do_cadastro.html" method="POST" onsubmit="cadastrar(event)">
             <label for="cadastroProfessor"></label>
-            <input type="text" name="nomeProf" value="" placeholder="Nome completo" required><br>
-            <input type="text" name="emailProf" value="" placeholder="E-mail"><br>
-            <input type="text" name="disciplinaProf" value="" placeholder="Disciplina"><br>
-            <input type="text" name="escolaProf" value="" placeholder="Escola"><br>
-            <input type="number" name="matricula" value="" placeholder="Matrícula" maxlength="20" required><br>
-            <input type="text" name="senhaProf" value="" placeholder="Senha" required><br>
+            <input type="text" name="nomeProf" value="" placeholder="Nome completo" id="nomeProf" required><br>
+            <input type="text" name="emailProf" value="" placeholder="E-mail" id="emailProf" ><br>
+            <input type="text" name="disciplinaProf" value="" placeholder="Disciplina" id="disciplinaProf" ><br>
+            <input type="text" name="escolaProf" value="" placeholder="Escola" id="escolaProf" ><br>
+            <input type="number" name="matricula" value="" placeholder="Matrícula" maxlength="20" id="matricula" required><br>
+            <input type="password" name="senhaProf" value="" placeholder="Senha" id="senhaProf" required><br>
             <input type="submit" name="enviarCadProf" value="Cadastrar" class="botaoMain" id="botaoCadProf">
         </form>
     </main>
