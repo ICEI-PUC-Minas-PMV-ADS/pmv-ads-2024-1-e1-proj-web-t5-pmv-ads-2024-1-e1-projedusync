@@ -50,8 +50,16 @@ Amarelo: #F2EF12
 
   .nav-item {
     margin: 0 15px;
+    
 
   }
+
+  li:hover {
+                       
+    background-color: #004651;
+    color: white; 
+
+}
 
   .nav-link {
     text-decoration: none;
