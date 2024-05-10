@@ -55,10 +55,9 @@ Amarelo: #F2EF12
   }
 
   li:hover {
-                       
-    background-color: #004651;
-    color: white; 
-
+   
+          text-decoration: underline; color: #004651;           
+   
 }
 
   .nav-link {
