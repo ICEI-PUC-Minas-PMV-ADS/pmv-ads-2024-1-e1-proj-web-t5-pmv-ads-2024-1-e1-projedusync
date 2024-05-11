@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style_frequencia.css">
-    <title>Frequência Porofessor</title>
+    <title>Frequência Professor</title>
 </head>
 
 <body>
@@ -13,7 +13,8 @@
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <h1><img src="images/iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSyncpng">EduSync
+                <h1><img src="images/iconEduSync.png" alt="logo Edusync" width="30" height="25"
+                        id="logoEduSyncpng">EduSync
                 </h1>
             </div>
 
@@ -27,7 +28,7 @@
                     <li class="nav-item"><a href="#" class="nav-link" id="nav-ativa">Frequência</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
                 </ul>
-                
+
             </div>
             <div class="pesquisa">
                 <input type="text" id="textpesquisa" placeholder="Pesquisa" />
@@ -38,13 +39,13 @@
 
     <main>
         <div class="FreqAlunos">
-            <h1>Frequência Alunos </h1>
+            <h1>Frequência de Alunos </h1>
         </div>
 
         <div class="data">
             <form action="/action_page.php">
                 <label for="Data">Data:</label>
-                <input type="date" id="Data" name="Data">
+                <input type="date" id="calendario" name="Data" min="2024-02-02" max="2024-12-15">
                 <input type="submit" value="Pesquisar">
             </form>
 
@@ -52,15 +53,19 @@
 
         <div class="turma" style="margin: 30px">
 
-            <form name="turma" action="do_Freq_Professor.html" method="post"></form>
+            <form name="turma" action="do_Freq_Professor.html" method="post">
 
-            <select name="Turma">
-                <option value="Selecionar Turma"> Selecionar Turma</option>
-                <option value="Turma 01"> Turma 01</option>
-                <option value="Turma 02"> Turma 02</option>
-                <option value="Turma 03"> Turma 03</option>
-                <option value="Turma 04"> Turma 04</option>
-            </select>
+                <select name="Turma" id="selectTurma">
+                    <option value="Selecionar Turma"> Selecionar Turma</option>
+                    <option value="Turma 01"> Turma 01</option>
+                    <option value="Turma 02"> Turma 02</option>
+                    <option value="Turma 03"> Turma 03</option>
+                    <option value="Turma 04"> Turma 04</option>
+                </select>
+            </form>
+        </div>
+        <div id="tabelas">
+
         </div>
 
         <table>
@@ -78,66 +83,66 @@
                 <tbody>
                     <tr>
                         <td>Aluno 1 </td>
-                        <td><button type="button" class="button button1"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>1</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 2 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>2</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
                     </tr>
 
                     <tr>
                         <td>Aluno 3 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
 
                     <tr>
                         <td>Aluno 4 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 5 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 6 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 7 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 8 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                     <tr>
                         <td>Aluno 9 </td>
-                        <td><button class="button button1" type="submit"> ✔ </button> <button class="button button2"
-                                type="submit"> X </button></td>
-                        <td>0</td>
+                        <td><button class="button button1" onclick="mudarCor(this)"> ✔ </button> <button
+                                class="button button2" onclick="mudarCor2(this)"> X </button></td>
+                        <td class="faltas"></td>
 
                     </tr>
                 </tbody>
@@ -155,6 +160,7 @@
 
 
     </footer>
+    <script src="script_professor.js"></script>
 </body>
 
 
