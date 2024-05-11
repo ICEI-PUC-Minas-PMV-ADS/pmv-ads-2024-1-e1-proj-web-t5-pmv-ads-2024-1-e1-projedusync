@@ -121,8 +121,11 @@ Amarelo: #F2EF12
 
   .calendar-complete {
   display: flex;
-  align-items:top;
+  align-items:center;
   justify-content: right;
+  position: relative;
+  bottom: 320px;
+  right: 100px;
 }
 
 .calendar-container {
@@ -239,7 +242,7 @@ header .calendar-current-date {
 }
 
 .calendar-dates li.active::before {
-  background: #A4E473;
+  background: #00A181;
 }
 
 .calendar-dates li:not(.active):hover::before {
