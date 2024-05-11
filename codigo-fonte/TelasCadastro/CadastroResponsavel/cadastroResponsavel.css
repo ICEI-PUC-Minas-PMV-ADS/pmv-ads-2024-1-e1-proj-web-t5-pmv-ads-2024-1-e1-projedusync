@@ -18,7 +18,7 @@ main {
 
 .iconeAddAluno {
   width: 30px;
-  
+
 }
 
 #botaoCadResp {
@@ -47,12 +47,11 @@ input {
 
 footer {
   text-align: center;
-  padding: 5px;
   width: 100%;
   bottom: 0;
-  position: fixed;
-  background-color: #E5E9F2;
-  color: #000;
+  position: absolute;
+  background-color: #004651;
+  color: white;
 }
 
 .botãoMain {
