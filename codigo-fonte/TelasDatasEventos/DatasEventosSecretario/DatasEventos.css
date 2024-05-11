@@ -1,4 +1,12 @@
 
+   /*Verde claro: #A4E473
+Verde médio: #00A181
+Verde escuro:#004651
+"Branco": #F4F4F4
+Preto: #000000
+Amarelo: #F2EF12
+*/
+   
    * {
     padding:0;
     margin: 0;
@@ -14,7 +22,7 @@
 
    header {
     background-color: white;
-    box-shadow: 0px 3px  10px;
+    box-shadow: 0px 3px  10px; color: #004651;
   }
 
   .nav-bar {
@@ -106,18 +114,26 @@
   width: 100%;
   bottom: 0;
   position: fixed;
-  background-color: #E5E9F2;
-  color: #000;                                                    
+  background-color: #004651;
+  color: white;
+  text-align: center;                                                 
 }   
+
+  .calendar-complete {
+  display: flex;
+  align-items:top;
+  justify-content: right;
+}
 
 .calendar-container {
   position:relative;
-  left: 1150px;
   background: #fff;
   width: 600px;
   border-radius: 10px;
   box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
+   
 }
+
 
 .calendar-container header {
   display: flex;
@@ -175,16 +191,19 @@ header .calendar-current-date {
   flex-wrap: wrap;
   display: flex;
   text-align: center;
+  margin-top: 0;
 }
 
 .calendar-body .calendar-dates {
-  margin-bottom: 20px;
+  margin-bottom: 100px;
+  margin-top: 0%;
 }
 
 .calendar-body li {
   width: calc(100% / 7);
   font-size: 1.07rem;
   color: #414141;
+  
 }
 
 .calendar-body .calendar-weekdays li {
@@ -220,7 +239,7 @@ header .calendar-current-date {
 }
 
 .calendar-dates li.active::before {
-  background: #6332c5;
+  background: #A4E473;
 }
 
 .calendar-dates li:not(.active):hover::before {
