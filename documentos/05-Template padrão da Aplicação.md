@@ -20,7 +20,7 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 </figure>
 
 <h3><b>Tela Inicial do Professor</b></h3>
-<p> Exibe a tela inicial do usuário, na figura mostrada, sendo do Professor. Reúne todas as informações que o usuário pode acessar.</p>
+<p> Exibe a tela inicial do usuário. Na figura abaixo, sendo exibida a do Professor. Reúne todas as informações que o usuário pode acessar.</p>
 <figure>
   <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaInicialProfessor.png> 
   <figcaption>Figura 2 - Tela inicial Professor </figcaption>
