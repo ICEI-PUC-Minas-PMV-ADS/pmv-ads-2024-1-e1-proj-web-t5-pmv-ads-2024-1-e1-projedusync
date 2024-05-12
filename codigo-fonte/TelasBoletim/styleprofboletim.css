@@ -1,0 +1,133 @@
+
+/*Verde claro: #A4E473
+Verde médio: #00A181
+Verde escuro:#004651
+"Branco": #F4F4F4
+Preto: #000000
+Amarelo: #F2EF12
+*/
+*{
+    padding:0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  header {
+    background-color: white;
+    box-shadow: 0px 3px  10px; color: #004651;
+    h1{
+      color: #000;
+    }
+  }
+
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+  }
+
+  .logo {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+   
+  }
+#logoEduSyncpng
+{
+    padding-right: 5px;
+}
+
+  .nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+  }
+
+  .nav-item {
+    margin: 0 15px;
+  }
+
+  li:hover {
+   text-decoration: underline; color: #004651;           
+  }
+
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #47525E;
+    font-weight: 400;
+  }
+
+  .input {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+  }
+  
+   #btnPesquisa {
+    border:none;
+    float:right;
+    height:20px;
+  }
+
+
+    .FreqAlunos
+    {
+      font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: larger;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 5px;
+      width: 100%;
+      bottom: 0;
+      position: absolute;
+      background-color: #004651;
+      color: #F4F4F4;
+    }
+  /* 
+    th{
+      height: 70%; font-size: 20px; 
+      font-family: arial, sans-serif;
+      border-collapse: collapse;
+      width: 80%;
+      text-align: center !important; 
+      background-color: #00A181;
+      color: white;
+    }
+    
+    td, th {
+      border: 1px solid #000;
+      text-align: left;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    
+    tr:nth-child(even) {
+      background-color: #ddd;
+    }
+    .button {
+      background-color: #04AA6D;
+      border: none;
+      color: white;
+      padding: 8px 8px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+    }
+    

@@ -19,8 +19,9 @@
         <form name="cadastroResponsavel" action="do_cadastro.html" method="POST" onsubmit="cadastrar(event)">
             <input type="text" name="nomeResp" value="" placeholder="Nome completo" id="nomeResp" required><br>
             <input type="text" name="emailResp" value="" placeholder="E-mail" id="emailResp"><br>
-            <div class="aluno-container" >
-                <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)" id="nomeAlunoResp" class="aluno-input">
+            <div class="aluno-container">
+                <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)" id="nomeAlunoResp"
+                    class="aluno-input">
                 <img class="iconeAddAluno" src="iconadd.png" onclick="adicionarAluno()"><br>
             </div>
             <div id="inputs-alunos">
@@ -31,11 +32,11 @@
             <input type="submit" name="enviarCadResp" value="Cadastrar" class="botaoMain" id="botaoCadResp">
         </form>
     </main>
+    <footer>
+        <img src="iconEduSync.png" width="30" height="25">
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
+    </footer>
 </body>
-<footer>
-    <img src="iconEduSync.png" width="30" height="25">
-    <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
-    </p>
-</footer>
 
 </html>

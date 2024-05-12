@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagRegAvisosResp.css">
+   
+    <title>Registro de avisos</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync
+                </h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                </ul>
+
+            </div>
+            <div id="divPesquisa">
+                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+                <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Registro de avisos</h1>
+        <p>Preencha os campos abaixo para enviar um aviso.<br>
+        </p>
+            <input type="text" name="tituloAviso" value="" placeholder="Título do aviso" id="tituloAviso" required><br>
+            <!--<button onclick="formatarTexto('bold')" class="botaoNegrito">Negrito</button>
+            <button onclick="formatarTexto('italic')" class="botaoItalico" >Itálico</button>
+            <button onclick="formatarTexto('underline')" class="botaoSublinhado" >Sublinhado</button>
+            <button onclick="formatarTexto('highlight')" class="botaoDestacar" >Destacar</button><br>
+            <div class="editor" onkeyup="excluirCaixaTextoVazia()" contenteditable="true" id="editor"></div><br>-->
+            <textarea name="campoAviso" placeholder="Digite o aviso aqui…" cols="90" rows="10"
+                id="campoAviso"></textarea><br>
+            <input type="button" name="enviarAviso" value="Enviar" class="botaoEnviarAviso" onclick="enviarAvisos()">
+            <input type="button" name="salvarAviso" value="Salvar e sair" class="botaoSalvarAviso">
+            <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso">
+    </main>
+    <script src="pagRegAvisosResp.js"></script>
+    <footer>
+        <img src="iconEduSync.png" width="30" height="25">
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
+    </footer>
+</body>
+</html>
