@@ -8,12 +8,11 @@
    
     <title>Registro de avisos</title>
 </head>
-<script src="pagRegAvisosResp.js"></script>
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <h1><img src="img/iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync
+                <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync
                 </h1>
             </div>
 
@@ -29,13 +28,13 @@
             </div>
             <div id="divPesquisa">
                 <input type="text" id="textpesquisa" placeholder="Pesquisa" />
-                <img src="img/search3.png" id="btnPesquisa" alt="Pesquisa" />
+                <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
             </div>
         </nav>
     </header>
     <main>
         <h1>Registro de avisos</h1>
-        <p>Preencha os campos abaixo para enviar um aviso.<br>O aviso é enviado a professores, alunos e responsáveis.
+        <p>Preencha os campos abaixo para enviar um aviso.<br>
         </p>
         <form name="enviarAvisos" action="registrar_Aviso.html" method="POST">
             <input type="text" name="tituloAviso" value="" placeholder="Título do aviso" id="tituloAviso" required><br>
@@ -51,10 +50,10 @@
             <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso">
         </form>
     </main>
-    
+    <script src="pagRegAvisosResp.js"></script>
 </body>
 <footer>
-    <img src="img/iconEduSync.png" width="30" height="25">
+    <img src="iconEduSync.png" width="30" height="25">
     <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
     </p>
 </footer>
