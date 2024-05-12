@@ -126,6 +126,7 @@
 | RF-08 | A aplicação deve permitir ao professor(a) buscar o perfil de aluno(a) pelo nome. | BAIXA |
 | RF-09 | A aplicação deve permitir ao responsável acesso somente leitura de notas, eventos, observações e avisos com login e senha. | ALTA |
 | RF-10 | A aplicação deve possibilitar ao secretário adicionar e vincular o perfil de aluno(s) e responsável. | ALTA |
+| RF-11 | A aplicação deve permitir ao professor(a) visualizar as datas e eventos. | BAIXA |
 
 **Prioridade: Alta / Média / Baixa. 
 
