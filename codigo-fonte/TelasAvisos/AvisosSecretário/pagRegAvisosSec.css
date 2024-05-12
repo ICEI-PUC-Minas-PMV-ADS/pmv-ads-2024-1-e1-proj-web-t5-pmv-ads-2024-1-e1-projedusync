@@ -12,6 +12,10 @@ header {
   color: #004651;
 }
 
+#logoEduSync {
+  padding-right: 5px;
+}
+
 body {
   overflow: hidden;
 }

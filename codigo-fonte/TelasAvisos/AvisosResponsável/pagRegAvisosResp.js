@@ -1,6 +1,4 @@
 function enviarAvisos() {
-console.log('funcionou')
-
     var dadosAvisos = {};
 
     dadosAvisos.tituloAviso = document.getElementById('tituloAviso').value;  

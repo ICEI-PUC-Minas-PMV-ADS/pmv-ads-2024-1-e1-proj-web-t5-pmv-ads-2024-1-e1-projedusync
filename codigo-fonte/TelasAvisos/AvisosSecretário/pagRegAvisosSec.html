@@ -35,10 +35,10 @@
     <main>
         <h1>Registro de avisos</h1>
         <p>Preencha os campos abaixo para enviar um aviso.<br>
-        <form name="formularioAviso" action="registrar_Aviso.html" method="POST">
             <label for="aviso"></label>
             <div id="camposAvisosSec">
-                <div id="selecionarInfosAlunos"><select name="anoLetivo" id="menuAnoLetivo">
+                <div id="selecionarInfosAlunos">
+                    <select name="anoLetivo" id="menuAnoLetivo">
                         <option value="selecionarAnoLetivo">Selecionar ano letivo</option>
                         <option value="ano1">1º ano</option>
                         <option value="ano2">2º ano</option>
@@ -58,14 +58,14 @@
                         <option value="aluno">4004</option>
                     </select>
                 </div>
-                <div id="pesquisarAluno"><input type="search" name="pesquisarAluno" value=""
-                        placeholder="Pesquisar aluno" maxlength="20"></div>
+                <div id="pesquisarAluno">
+                    <input type="search" name="pesquisarAluno" id="pesquisarAluno" placeholder="Pesquisar aluno" maxlength="20"></div>
             </div>
             <input type="text" name="tituloAviso" value="" placeholder="Título do aviso" id="tituloAviso" required><br>
 
         </form>
-        <textarea name="campoAviso" placeholder="Digite o aviso aqui…" cols="90" rows="10"></textarea><br>
-        <input type="submit" name="enviarAviso" value="Enviar" class="botaoEnviarAviso">
+        <textarea name="campoAviso" id="campoAviso" placeholder="Digite o aviso aqui…" cols="90" rows="10"></textarea><br>
+        <input type="button" name="enviarAviso" value="Enviar" class="botaoEnviarAviso" onclick="enviarAviso()">
         <input type="button" name="salvarAviso" value="Salvar e sair" class="botaoSalvarAviso">
         <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso">
     </main>
@@ -77,6 +77,4 @@
     </footer>
     <script src="pagRegAvisosSec.js"></script>
 </body>
-
-
 </html>
