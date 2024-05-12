@@ -44,7 +44,7 @@ const alunos = {
         "Rafael Costa Silva"
     ]
 };
- 
+
 function gerarTabela(turma) {
     const tabela = document.createElement("table");
     tabela.innerHTML = `
@@ -79,7 +79,7 @@ function preencherTabela(turmaSelecionada) {
 }
 
 
-document.getElementById("selectTurma").addEventListener("change", function() {
+document.getElementById("selectTurma").addEventListener("change", function () {
     const turmaSelecionada = this.value;
     preencherTabela(turmaSelecionada);
 });
@@ -105,7 +105,7 @@ function mudarCor2(event, button) {
     } else {
         tdFaltas.innerText = 1;
     }
-    
+
     event.stopPropagation();
     event.preventDefault();
 }
@@ -114,14 +114,14 @@ function mudarCor2(event, button) {
 var botoesPresenca = document.querySelectorAll('.button1');
 var botoesFaltas = document.querySelectorAll('.button2');
 
-botoesPresenca.forEach(function(botao) {
-    botao.addEventListener('click', function() {
+botoesPresenca.forEach(function (botao) {
+    botao.addEventListener('click', function () {
         mudarCor(botao);
     });
 });
 
-botoesFaltas.forEach(function(botao) {
-    botao.addEventListener('click', function(event) {
+botoesFaltas.forEach(function (botao) {
+    botao.addEventListener('click', function (event) {
         mudarCor2(event, botao);
     });
 });
