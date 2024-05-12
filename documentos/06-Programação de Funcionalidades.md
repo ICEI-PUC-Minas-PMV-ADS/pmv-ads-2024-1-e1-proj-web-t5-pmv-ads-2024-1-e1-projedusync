@@ -4,34 +4,43 @@ Implementação da aplicação descritas por meio dos requisitos codificados.
 
 [Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
 
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
+### Datas e Eventos (RF-011)
+O acesso da tela pode ser feito por meio da tela inicial. As estruturas de dados foram baseadas em HTML, CSS e JS.
+<figure>
+  <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/telaDatasEventosProfessor.png"> 
+</figure>
 
 #### Requisito atendido
 
-[RF-X: adicione a descrição do requisito atendido]
+RF-011: A aplicação deve permitir ao professor(a) visualizar as datas e eventos. 
 
 
 #### Artefatos da funcionalidade
 
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
+●DatasEventos.html
+
+●DatasEventos.css
+
+●DatasEventos.js
 
 
 #### Estrutura de Dados
 
-[Caso exista estrutura de dados, adicione aqui]
+●[DatasEventos.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/codigo-fonte/TelasDatasEventos/DatasEventosProfessor/DatasEventos.html)
+
 
 
 #### Instruções de acesso
 
-[Adicione as orientações de acesso à funcionalidade]
+Abra um navegador de Internet e informe a seguinte URL: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/tree/main/codigo-fonte
+
+Ao clicar em “Datas e Eventos” no canto superior direito da tela, terá acesso a página.
+
 
 
 #### Responsável
 
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
+Suzany Napolitano
 
 
 
