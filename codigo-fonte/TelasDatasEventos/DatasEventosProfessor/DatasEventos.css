@@ -67,16 +67,6 @@
   padding: 40px;
 }
 
-#btnAdicionar {
-  position: relative;
-  right: 5px;
-  border: none;
-  float:right;
-  height:30px;
-  display: flex;
-  padding-right: 2px;
-}
-
 main h1 {
   padding: 40px ;
 }
@@ -90,17 +80,6 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
-
-#btnEditar{
-  position: relative;
-  left: 25px;
-  border: none;
-  float: right;
-  height: 25px;
-  display: flex;
-  padding-right: 0.200px;
-  padding-top: 60px;
- }
 
  footer {
   text-align: center;

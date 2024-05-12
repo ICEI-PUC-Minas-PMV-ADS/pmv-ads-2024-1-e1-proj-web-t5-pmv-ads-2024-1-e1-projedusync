@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +10,7 @@
 
 <body>
     <header>
-        <nav class="nav-bar"> 
+        <nav class="nav-bar">
             <div class="logo">
                 <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync</h1>
             </div>
@@ -19,14 +20,14 @@
                     <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>                                                                                                           
-                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>                                                                    
-                </ul>                                                                                                                        
+                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                </ul>
 
             </div>
             <div id="divPesquisa">
-                <input type="text" id="textpesquisa" placeholder="Pesquisa"/>
-                <img src="search3.png" id="btnPesquisa" alt="Pesquisa"/>                                                                                                                                                                                     
+                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+                <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
             </div>
         </nav>
     </header>
@@ -34,7 +35,7 @@
     <main>
         <h1>Datas e Eventos</h1>
 
-        <div id="linha"> 
+        <div id="linha">
 
         </div>
 
@@ -43,17 +44,53 @@
 
         <p>Fim do ano letivo</p>
 
-        <div id="linha">    
+        <div id="linha">
         </div>
 
-        </main>
 
-        <footer>
-            <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
-            <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
-            </p>
-        </footer>
+        <div class="calendar-complete">
+            <div class="calendar-container" id="calendario">
+                <header class="calendar-header">
+                    <p class="calendar-current-date"></p>
+                    <div class="calendar-navigation">
+                        <span id="calendar-prev">
+                            <img src="setaEsquerda.png" id="calendar-prev" class="material-symbols-rounded">
+                        </span>
+                        <span id="calendar-next">
+                            <img src="setaDireita.png" id="calendar-next" class="material-symbols-rounded">
+                        </span>
+                    </div>
+                </header>
+
+
+                <div class="calendar-body">
+                    <ul class="calendar-weekdays">
+                        <li>Dom</li>
+                        <li>Seg</li>
+                        <li>Ter</li>
+                        <li>Qua</li>
+                        <li>Qui</li>
+                        <li>Sex</li>
+                        <li>Sab</li>
+                    </ul>
+                    <ul class="calendar-dates"></ul>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="DatasEventos.js"></script>
+
+    </main>
+
+    <footer>
+        <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
+    </footer>
 
 
 </body>
+
 </html>
