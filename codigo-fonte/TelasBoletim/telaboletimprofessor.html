@@ -1,0 +1,287 @@
+
+
+<html lang="pt-br">
+<head>
+  <title>Boletim Professor</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styleprofboletim.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <link rel='stylesheet' type='text/css' href='css/bootstrap.min.css'>
+  <script src='js/bootstrap.min.js'></script>
+  <script>
+    function calcula_media(i)
+    {
+      var n1 = document.getElementById("n1_aluno_" + i).value;
+      var n2 = document.getElementById("n2_aluno_" + i).value;
+      var n3 = document.getElementById("n3_aluno_" + i).value;
+      var media = document.getElementById("media_aluno_" + i);
+      var resultado = document.getElementById("resultado_aluno_" + i);
+
+      var calculo = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3));
+
+      if(calculo >= 60)
+      {
+        media.innerHTML = "<div class='text-success'>" + calculo + "</div>";
+        resultado.innerHTML = "Aprovado";
+      }
+      else
+      {
+      media.innerHTML = "<div class='text-danger'>" + calculo + "</div>";
+      resultado.innerHTML = "Reprovado";
+      }
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1><img src="images/iconEduSync.png" alt="logo Edusync" width="30" height="25"
+                id="logoEduSyncpng">EduSync
+        </h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="nav-ativa">Frequência</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+        </ul>
+      </div>
+      <div class="pesquisa">
+        <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+        <img src="images/search3.png" id="btnPesquisa" alt="Pesquisa" />
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+    <h3>Professor: Cleiton da Silva &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Matéria: Matemática</h3>
+    </br>
+    <p>Página para o professor(a) Inserir as notas dos alunos</p>
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>Estudante</th>
+            <th>Prova 1°</th>
+            <th>Prova 2°</th>
+            <th>Trabalhos</th>
+            <th>Total</th>
+            <th>Resultado Final</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Ana da Silva</td>
+          <td><input id="n1_aluno_0" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(0)"></td>
+          <td><input id="n2_aluno_0" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(0)"></td>
+          <td><input id="n3_aluno_0" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(0)"></td>
+          <td><div id="media_aluno_0"> </div></td>
+          <td><div id="resultado_aluno_0">-- </div></td>
+        </tr>
+        <tr>
+          <td>Beatriz da Silva Leite</td>
+          <td><input id="n1_aluno_1" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(1)"></td>
+          <td><input id="n2_aluno_1" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(1)"></td>
+          <td><input id="n3_aluno_1" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(1)"></td>
+          <td><div id="media_aluno_1"> </div></td>
+          <td><div id="resultado_aluno_1">-- </div></td>
+        </tr>
+        <tr>
+          <td>Breno Silva da Silva</td>
+          <td><input id="n1_aluno_2" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(2)"></td>
+          <td><input id="n2_aluno_2" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(2)"></td>
+          <td><input id="n3_aluno_2" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(2)"></td>
+          <td><div id="media_aluno_2"> </div></td>
+          <td><div id="resultado_aluno_2">-- </div></td>
+        </tr>
+        <tr>
+          <td>Carlos da Silva</td>
+          <td><input id="n1_aluno_3" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(3)"></td>
+          <td><input id="n2_aluno_3" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(3)"></td>
+          <td><input id="n3_aluno_3" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(3)"></td>
+          <td><div id="media_aluno_3"> </div></td>
+          <td><div id="resultado_aluno_3">-- </div></td>
+        </tr>
+        <tr>
+          <td>Caroline Soares</td>
+          <td><input id="n1_aluno_4" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(4)"></td>
+          <td><input id="n2_aluno_4" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(4)"></td>
+          <td><input id="n3_aluno_4" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(4)"></td>
+          <td><div id="media_aluno_4"> </div></td>
+          <td><div id="resultado_aluno_4">-- </div></td>
+        </tr>
+        <tr>
+          <td>Debora Machado</td>
+          <td><input id="n1_aluno_5" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(5)"></td>
+          <td><input id="n2_aluno_5" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(5)"></td>
+          <td><input id="n3_aluno_5" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(5)"></td>
+          <td><div id="media_aluno_5"> </div></td>
+          <td><div id="resultado_aluno_5">-- </div></td>
+        </tr>
+        <tr>
+          <td>Daniel Guerrera</td>
+          <td><input id="n1_aluno_6" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(6)"></td>
+          <td><input id="n2_aluno_6" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(6)"></td>
+          <td><input id="n3_aluno_6" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(6)"></td>
+          <td><div id="media_aluno_6"> </div></td>
+          <td><div id="resultado_aluno_6">-- </div></td>
+        </tr>
+        <tr>
+          <td>Fabiana Molina</td>
+          <td><input id="n1_aluno_7" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(7)"></td>
+          <td><input id="n2_aluno_7" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(7)"></td>
+          <td><input id="n3_aluno_7" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(7)"></td>
+          <td><div id="media_aluno_7"> </div></td>
+          <td><div id="resultado_aluno_7">-- </div></td>
+        </tr>
+        <tr>
+          <td>Helena Garcia</td>
+          <td><input id="n1_aluno_8" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(8)"></td>
+          <td><input id="n2_aluno_8" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(8)"></td>
+          <td><input id="n3_aluno_8" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(8)"></td>
+          <td><div id="media_aluno_8"> </div></td>
+          <td><div id="resultado_aluno_8">-- </div></td>
+        </tr>
+        <tr>
+          <td>Galvão Bueno </td>
+          <td><input id="n1_aluno_9" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(9)"></td>
+          <td><input id="n2_aluno_9" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(9)"></td>
+          <td><input id="n3_aluno_9" type="number" value="0" min="0.0" step="0.1" max="10.0" onchange="calcula_media(9)"></td>
+          <td><div id="media_aluno_9"> </div></td>
+          <td><div id="resultado_aluno_9">-- </div></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+
+<!-- CODIGO DE EXEMPLO 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <div class="container">
+              <h3>Professor: </h3> <h3> Materia: </h3>
+              <p>pipipipiopipopopopop</p>
+              <table class="table table-hover">
+                <thead>
+                  <tr>
+                    <th>Estudante</th>
+                    <th>Prova 1°</th>
+                    <th>Prova 2°</th>
+                    <th>Trabalhos</th>
+                    <th>Média</th>
+                    <th>Resultado Final</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Ana da Silva</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(0)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(0)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media"> </div></td>
+                    <td><div name="resultado"></div></td>
+                  </tr>
+                  <tr>
+                        <td>Beatriz da Silva Leite</td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(1)"></td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(1)"></td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                        <td><div name="media">0,0</div></td>
+                        <td><div name="resultado"> </div></td>
+                  </tr>
+                  <tr>
+                        <td>Breno Silva da Silva</td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(2)"></td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(2)"></td>
+                        <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                        <td><div name="media">0,0</div></td>
+                        <td><div name="resultado"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Carlos da Silva</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(3)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(3)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="resultado"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Caroline Soares</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(4)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(4)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Debora Machado</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(5)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(5)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Daniel Guerrera</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(6)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(6)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Fabiana Molina</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(7)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(7)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Helena Garcia</td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(8)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(8)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                  <tr>
+                    <td>Galvão Bueno </td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n1" onchange="calcula_media(9)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n2" onchange="calcula_media(9)"></td>
+                    <td><input type="number" value="0" min="0.0" step="0.1" max="10.0" name="n3" onchange="calcula_media(6)"></td>
+                    <td><div name="media">0,0</div></td>
+                    <td><div name="media"> </div></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+
+
+function calcula_media(i){
+    var n1 = document.getElementsByName("n1")[i].value;
+    var n2 = document.getElementsByName("n2")[i].value;
+    var n3 = document.getElementsByName("n3")[i].value;
+
+    var media = document.getElementsByName("media");
+    var resultado = document.getElementsByName("resultado");
+
+    var calculo = (parseFloat(n1) + parseFloat(n2) + parseFloat(n3)) / 3;
+
+    if(calculo >= 7)
+    {
+        media[i].innerHTML = "<div class='text-success'>" + calculo + "</div>";
+        resultado[i].innerHTML = "<div class='text-success'>Aprovado</div>";
+    }
+    else
+    {
+        media[i].innerHTML = "<div class='text-danger'>" + calculo + "</div>";
+        resultado[i].innerHTML = "<div class='text-danger'>Reprovado</div>";
+    }
+}
+
+-->
