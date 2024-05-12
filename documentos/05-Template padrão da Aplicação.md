@@ -22,8 +22,16 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 <h3><b>Tela Inicial do Professor</b></h3>
 <p> Exibe a tela inicial do usuário. Na figura abaixo, temos a tela inicial exibida para os Professores. Reúne todas as informações que o usuário pode acessar.</p>
 <figure>
-  <img src=https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaInicialProfessor.png> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaInicialProfessor.png"> 
   <figcaption>Figura 2 - Tela inicial Professor </figcaption>
+</figure>
+
+
+<h3><b>Tela de registro de avisos do Secretário</b></h3>
+<p>Tela para registro de avisos do Secretário, em que ele pode enviar avisos para os responsáveis, alunos e professores.</p>
+<figure>
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaAvisosSecretario.png"> 
+  <figcaption>Figura 3 - Tela de avisos do Secretário. </figcaption>
 </figure>
 
 <hr>
@@ -32,12 +40,5 @@ O código utilizado para a construção dos elementos citados, incluindo a respo
 
 <figure>
   <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/logoEduSync.png">
-  <figcaption>Logo</figcaption>
+  <figcaption>Figura 4 - Logo </figcaption>
 </figure>
-
- 
-
-> - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
-> - [Website Page Layouts](http://www.cellbiol.com/bioinformatics_web_development/chapter-3-your-first-web-page-learning-html-and-css/website-page-layouts/)
-> - [Perfect Liquid Layout](https://matthewjamestaylor.com/perfect-liquid-layouts)
-> - [How and Why Icons Improve Your Web Design](https://usabilla.com/blog/how-and-why-icons-improve-you-web-design/)
