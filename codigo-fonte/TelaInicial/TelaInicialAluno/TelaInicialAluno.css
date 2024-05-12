@@ -63,7 +63,7 @@ body {
     display: flex;
     align-items: center;
     font-size: 22px;
-    background-color: #00A181;
+    background-color: #F4F4F4;
 }
 
 .lateral ul li:first-child img {
@@ -76,7 +76,7 @@ body {
 .lateral ul li:last-child {
     position: absolute;
     bottom: 0;
-    background-color: #00A181;
+
 }
 
 .lateral ul li:last-child div {
@@ -102,6 +102,7 @@ body {
     align-items: center;
     z-index: 100;
     box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.1);
+    border-bottom: solid #004651;
 }
 
 .navbar input[type="text"] {
@@ -121,6 +122,11 @@ body {
 .search-button img {
     width: 20px;
     height: 20px;
+}
+
+.search-button img:hover {
+    background-color: #A4E473;
+    border-radius: 15px
 }
 
 .user-menu {
@@ -149,12 +155,13 @@ body {
     text-align: center;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border:3px solid #000;
 }
 .box:hover{
     background-color: #A4E473;
@@ -162,4 +169,9 @@ body {
 .box img {
     width: 50px;
     height: 50px;
+}
+
+.content 
+{
+    font-size: 25px;
 }
