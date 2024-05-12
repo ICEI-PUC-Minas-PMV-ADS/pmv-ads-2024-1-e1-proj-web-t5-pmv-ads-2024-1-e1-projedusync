@@ -21,6 +21,25 @@ main {
 
 }
 
+.aluno-container {
+  display: flex;
+  justify-content: center;
+}
+
+.aluno-input {
+  margin-left: 32px;
+}
+
+#inputs-alunos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#inputs-alunos > input {
+  width: 30%;
+}
+
 #botaoCadResp {
   background-color: #004651;
   color: #E5E9F2;
