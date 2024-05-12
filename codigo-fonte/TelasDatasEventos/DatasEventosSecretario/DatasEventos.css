@@ -100,6 +100,8 @@ Amarelo: #F2EF12
   }
 
  #btnEditar{
+  position: relative;
+  left: 25px;
   border: none;
   float: right;
   height: 25px;
@@ -113,11 +115,15 @@ Amarelo: #F2EF12
   padding: 5px;
   width: 100%;
   bottom: 0;
-  position: fixed;
+  position: absolute;
   background-color: #004651;
   color: white;
   text-align: center;                                                 
 }   
+
+ body {
+  overflow: hidden;
+ }
 
   .calendar-complete {
   display: flex;
@@ -164,18 +170,35 @@ header .calendar-navigation  {
 
 #calendar-prev{
 position: relative;
+bottom: 5px;
 right: 50px;
+}
+
+img#calendar-prev{
+  width: 50px;
 }
 
 #calendar-next{
   position: relative;
-  right: 140px;
+  bottom: 5px;
+  right: 40px;
+  }
+  
+  img#calendar-next{
+    width: 50px;
   }
 
 .calendar-navigation span:last-child {
   margin-right: -10px;
+  width: 10px;
+  height: 30px;
 }
+.calendar-navigation span:first-child {
+  margin-right: 10px;
+  width: 10px;
+  height: 30px;
 
+}
 header .calendar-navigation span:hover {
   background: #f2f2f2;
 }

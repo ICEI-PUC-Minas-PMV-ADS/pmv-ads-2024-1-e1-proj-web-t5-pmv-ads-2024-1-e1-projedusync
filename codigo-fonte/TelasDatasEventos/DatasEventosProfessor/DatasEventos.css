@@ -13,7 +13,7 @@
 
  header {
   background-color: white;
-  box-shadow: 0px 3px  10px;
+  box-shadow: 0px 3px  10px; color: #004651;
 }
 
 .nav-bar {
@@ -68,6 +68,8 @@
 }
 
 #btnAdicionar {
+  position: relative;
+  right: 5px;
   border: none;
   float:right;
   height:30px;
@@ -90,6 +92,8 @@ p {
 }
 
 #btnEditar{
+  position: relative;
+  left: 25px;
   border: none;
   float: right;
   height: 25px;
@@ -102,10 +106,162 @@ p {
   text-align: center;
   padding: 5px;
   width: 100%;
-  bottom: 0;
-  position: fixed;
+  bottom: 0%;
+  position: absolute;
   background-color: #004651;
-  color: white;
-  text-align: center;                                                 
+  color: white;                                             
 }
- 
+
+body {
+  overflow: hidden;
+}
+
+
+.calendar-complete {
+  display: flex;
+  align-items:center;
+  justify-content: right;
+  position: relative;
+  bottom: 320px;
+  right: 100px;
+  float: right;
+}
+
+.calendar-container {
+  position:relative;
+  background: #fff;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
+   
+}
+
+
+.calendar-container header {
+  display: flex;
+  align-items:center;
+  padding: 35px 30px 10px;
+  justify-content: space-between;
+}
+
+header .calendar-navigation {
+  display: flex;
+}
+
+header .calendar-navigation  {
+  height: 38px;
+  width: 15px;
+  margin: 0 1px;
+  cursor: pointer;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 50%;
+  user-select:none;
+  color: #aeabab;
+  font-size: 1.9rem;
+}
+
+#calendar-prev{
+  position: relative;
+  bottom: 5px;
+  right: 50px;
+  }
+  
+  img#calendar-prev{
+    width: 50px;
+  }
+  
+  #calendar-next{
+    position: relative;
+    bottom: 5px;
+    right: 40px;
+    }
+    
+    img#calendar-next{
+      width: 50px;
+    }
+  
+  .calendar-navigation span:last-child {
+    margin-right: -10px;
+    width: 10px;
+    height: 30px;
+  }
+  .calendar-navigation span:first-child {
+    margin-right: 10px;
+    width: 10px;
+    height: 30px;
+  
+  }
+
+header .calendar-navigation span:hover {
+  background: #f2f2f2;
+}
+
+header .calendar-current-date {
+  font-weight: 500;
+  font-size: 1.45rem;
+}
+
+.calendar-body {
+  padding: 20px;
+}
+
+.calendar-body ul {
+  list-style: none;
+  flex-wrap: wrap;
+  display: flex;
+  text-align: center;
+  margin-top: 0;
+}
+
+.calendar-body .calendar-dates {
+  margin-bottom: 100px;
+  margin-top: 0%;
+}
+
+.calendar-body li {
+  width: calc(100% / 7);
+  font-size: 1.07rem;
+  color: #414141;
+  
+}
+
+.calendar-body .calendar-weekdays li {
+  cursor: default;
+  font-weight: 500;
+}
+
+.calendar-body .calendar-dates li {
+  margin-top: 30px;
+  position: relative;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.calendar-dates li.inactive {
+  color: #aaa;
+}
+
+.calendar-dates li.active {
+  color: #fff;
+}
+
+.calendar-dates li::before {
+  position: absolute;
+  content: "";
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calendar-dates li.active::before {
+  background: #00A181;
+}
+
+.calendar-dates li:not(.active):hover::before {
+  background: #e4e1e1;
+}

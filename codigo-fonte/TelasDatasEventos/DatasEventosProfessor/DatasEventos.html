@@ -38,13 +38,47 @@
             <img src="iconadd.png" id="btnAdicionar" alt="Adicionar"><img src="iconeditar.png" id="btnEditar" alt="Editar"> 
         </div>
 
-
         <h2>23/12</h2>
 
         <p>Fim do ano letivo</p>
 
         <div id="linha">    
         </div>
+    
+        <div class="calendar-complete">
+            <div class="calendar-container" id="calendario">
+                <header class="calendar-header">
+                    <p class="calendar-current-date"></p>
+                    <div class="calendar-navigation">
+                        <span id="calendar-prev">
+                            <img src="setaEsquerda.png" id="calendar-prev" class="material-symbols-rounded">
+                        </span>
+                        <span id="calendar-next">
+                            <img src="setaDireita.png" id="calendar-next" class="material-symbols-rounded">
+                        </span>
+                    </div>
+                </header>
+            
+    
+                <div class="calendar-body">
+                    <ul class="calendar-weekdays">
+                        <li>Dom</li>
+                        <li>Seg</li>
+                        <li>Ter</li>
+                        <li>Qua</li>
+                        <li>Qui</li>
+                        <li>Sex</li>
+                        <li>Sab</li>
+                    </ul>
+                    <ul class="calendar-dates"></ul>
+                </div>
+            </div>
+        </div>
+    
+        </main>
+    
+        <script src="DatasEventos.js"></script>
+    
 
         </main>
 
@@ -52,7 +86,7 @@
 </body>
 
     <footer>
-        <img src="iconEduSync.png">
+        <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
         <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
         </p>
     </footer>

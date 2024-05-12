@@ -13,7 +13,7 @@
 
    header {
     background-color: white;
-    box-shadow: 0px 3px  10px;
+    box-shadow: 0px 3px  10px; color: #004651;
   }
 
   .nav-bar {
@@ -85,12 +85,16 @@
     text-align: center;
     padding: 5px;
     width: 100%;
-    bottom: 0;
-    position: fixed;
+    bottom: 0%;
+    position: absolute;
     background-color: #004651;
     color: white;
     text-align: center;                                                 
   } 
+
+  body {
+    overflow: hidden;
+  }
 
   
   
