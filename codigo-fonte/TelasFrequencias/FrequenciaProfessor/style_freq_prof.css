@@ -46,10 +46,11 @@ header {
 }
 
 #logoEduSyncpng:hover {
-  
+
   text-decoration: underline;
   color: #004651;
 }
+
 .nav-list ul {
   display: flex;
   justify-content: center;
@@ -175,7 +176,8 @@ footer {
   background-color: #004651;
   color: white;
   text-align: center;
-
+  width: 100%;
+  
 
 }
 
@@ -192,4 +194,3 @@ footer {
 }
 
 ;
-
