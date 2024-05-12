@@ -16,7 +16,7 @@ As páginas terão como elementos padrões o menu de navegação, o header e o f
 
 <hr>
 <h3><b>Logo</b></h3>
-<p>Para a criação do logotipo do site foi utilizado tons de verde com a intenção de trazer um aspecto de tranquilidade e calma no ambiente escolar. Foi utilizado também a cor amerelo, pois está associada a educação. </p>
+<p>Para a criação do logotipo do site foi utilizado tons de verde com a intenção de trazer um aspecto de tranquilidade e calma no ambiente escolar. Foi utilizado também a cor amarelo, pois está associada à educação. </p>
 
 <figure>
   <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/logoEduSync.png">
