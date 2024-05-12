@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pagRegAvisosSec.css">
+    <title>Registro de observações</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="img/iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync
+                </h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                </ul>
+
+            </div>
+            <div id="divPesquisa">
+                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+                <img src="img/search3.png" id="btnPesquisa" alt="Pesquisa" />
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Avisos</h1>
+        <form name="formularioAviso" action="do_registro.html" method="POST">
+            <label for="aviso"></label>
+            <div id="camposAvisosSec">
+                <div id="selecionarInfosAlunos"><select name="anoLetivo" id="menuAnoLetivo">
+                        <option value="selecionarAnoLetivo">Selecionar ano letivo</option>
+                        <option value="ano1">1º ano</option>
+                        <option value="ano2">2º ano</option>
+                        <option value="ano3">3º ano</option>
+                        <option value="ano4">4º ano</option>
+                    </select>
+                <select name="turno" id="menuTurno">
+                    <option value="secretario">Selecionar turno</option>
+                    <option value="secretario">Manhã</option>
+                    <option value="professor">Tarde</option>
+                </select>
+                <select name="turma" id="menuTurma">
+                    <option value="secretario">Selecionar turma</option>
+                    <option value="secretario">1001</option>
+                    <option value="professor">2002</option>
+                    <option value="responsavel">3003</option>
+                    <option value="aluno">4004</option>
+                </select>
+            </div>
+            <div id="pesquisarAluno"><input type="search" name="pesquisarAluno" value="" placeholder="Pesquisar aluno" maxlength="20"></div>
+            </div>
+            <input type="text" name="tituloAviso" value="" placeholder="Título do aviso" id="tituloAviso" required><br>
+
+        </form>
+        <textarea name="campoAviso" placeholder="Digite o aviso aqui…" cols="90" rows="10"></textarea><br>
+        <input type="submit" name="enviarAviso" value="Enviar" class="botaoEnviarAviso">
+        <input type="button" name="salvarAviso" value="Salvar e sair" class="botaoSalvarAviso">
+        <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso">
+    </main>
+
+    <footer>
+        <img src="img/iconEduSync.png" width="30" height="25">
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
+    </footer>
+
+</body>
+
+
+</html>
