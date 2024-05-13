@@ -70,7 +70,7 @@ Juan Phablo
 
 O acesso da tela pode ser feito por meio da tela inicial. A tela de registro de observações permite ao professor registrar e enviar observações sobre o comportamento e desempenho do aluno aos responsáveis. As estruturas de dados foram baseadas em HTML, CSS e JS.
 <figure>
-  <img src="#"> 
+  <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaObservacoesProfessor.png.png"> 
 </figure>
 
 #### Requisito atendido
