@@ -89,7 +89,7 @@ RF-03: A aplicação deve permitir ao professor(a) registrar e enviar observaç�
 
 #### Estrutura de Dados
 
-●[TelasObservações.html]([#](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/codigo-fonte/TelasObserva%C3%A7%C3%B5es/TelasObserva%C3%A7%C3%B5es.html))
+●[TelasObservações.html](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/codigo-fonte/TelasObserva%C3%A7%C3%B5es/TelasObserva%C3%A7%C3%B5es.html)
 
 ### Tela de login (RF-04/RF-05)
 
