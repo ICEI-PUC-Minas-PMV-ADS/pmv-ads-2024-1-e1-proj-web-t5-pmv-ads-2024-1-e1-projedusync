@@ -8,7 +8,8 @@
 
 Igor Yuri
 
-O acesso da tela pode ser feito por meio da tela inicial. A tela de frequência é usada pelo professor para registro de frequências e faltas dos alunos. As estruturas de dados foram baseadas em HTML, CSS e JS. O JavaScript possibilita a seleção de turmas, bem como o registro da frequência de alunos.
+O acesso da tela pode ser feito por meio da tela inicial. A tela de frequência é usada pelo professor para registro de frequências e faltas dos alunos.
+As estruturas de dados foram baseadas em HTML, CSS e JS. O JavaScript possibilita a seleção de turmas, bem como o registro da frequência de alunos.
 <figure>
   <img src="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/TelaFreqenciaProfessor.png"> 
 </figure>
@@ -187,7 +188,7 @@ RF-08: A aplicação deve permitir ao secretário(a) escolar receber e enviar me
 
 Suzany Napolitano
 
-O acesso da tela pode ser feito por meio da tela inicial. As estruturas de dados foram baseadas em HTML, CSS e JS.
+O acesso da tela pode ser feito por meio da tela inicial. Permite ao professor visualizar as datas e eventos relacionados à escola. As estruturas de dados foram baseadas em HTML, CSS e JS.
 <figure>
   <img src="https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/telaDatasEventosProfessor.png"> 
 </figure>
