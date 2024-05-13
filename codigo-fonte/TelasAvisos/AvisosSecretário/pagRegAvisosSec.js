@@ -1,14 +1,14 @@
-function enviarAviso() {
+function enviarObservacao() {
     
-        var dadosAvisos = {};
+        var dadosObservacaos = {};
     
-        dadosAvisos.menuAnoLetivo = document.getElementById('menuAnoLetivo').value;  
-        dadosAvisos.menuTurno = document.getElementById('menuTurno').value; 
-        dadosAvisos.menuTurma = document.getElementById('menuTurma').value; 
-        dadosAvisos.pesquisarAluno = document.getElementById('pesquisarAluno').value;
-        dadosAvisos.tituloAviso = document.getElementById('tituloAviso').value;
-        dadosAvisos.campoAviso = document.getElementById('campoAviso').value;
+        dadosObservacaos.menuAnoLetivo = document.getElementById('menuAnoLetivo').value;  
+        dadosObservacaos.menuTurno = document.getElementById('menuTurno').value; 
+        dadosObservacaos.menuTurma = document.getElementById('menuTurma').value; 
+        dadosObservacaos.pesquisarAluno = document.getElementById('pesquisarAluno').value;
+        dadosObservacaos.tituloObservacao = document.getElementById('tituloObservacao').value;
+        dadosObservacaos.campoObservacao = document.getElementById('campoObservacao').value;
     
-        console.log(dadosAvisos);
+        console.log(dadosObservacaos);
     }
     

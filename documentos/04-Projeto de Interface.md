@@ -62,10 +62,10 @@ As telas do sistema apresentam uma estrutura comum que é apresentada na figura 
 </figure> 
 <hr>
 
-<h3><b>Tela - Avisos</b></h3>
-<p>A tela de avisos se destina a comunicação entre os usuários. </p>
+<h3><b>Tela - Observacaos</b></h3>
+<p>A tela de Observacaos se destina a comunicação entre os usuários. </p>
   
-![Avisos](./img/Edusync/Avisos.png)
+![Observacaos](./img/Edusync/Observacaos.png)
 
 <figure> 
   <figcaption>Figura 6 - Tela de comunicação

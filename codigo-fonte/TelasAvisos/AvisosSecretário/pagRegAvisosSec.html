@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="pagRegAvisosSec.css">
-    <title>Registro de avisos</title>
+    <link rel="stylesheet" href="pagRegObservacaosSec.css">
+    <title>Registro de Observacaos</title>
 </head>
 
 <body>
@@ -17,7 +17,7 @@
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Observacaos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
@@ -33,10 +33,10 @@
     </header>
 
     <main>
-        <h1>Registro de avisos</h1>
-        <p>Preencha os campos abaixo para enviar um aviso.<br>
-            <label for="aviso"></label>
-            <div id="camposAvisosSec">
+        <h1>Registro de Observacaos</h1>
+        <p>Preencha os campos abaixo para enviar um Observacao.<br>
+            <label for="Observacao"></label>
+            <div id="camposObservacaosSec">
                 <div id="selecionarInfosAlunos">
                     <select name="anoLetivo" id="menuAnoLetivo">
                         <option value="selecionarAnoLetivo">Selecionar ano letivo</option>
@@ -61,13 +61,13 @@
                 <div id="pesquisarAluno">
                     <input type="search" name="pesquisarAluno" id="pesquisarAluno" placeholder="Pesquisar aluno" maxlength="20"></div>
             </div>
-            <input type="text" name="tituloAviso" value="" placeholder="Título do aviso" id="tituloAviso" required><br>
+            <input type="text" name="tituloObservacao" value="" placeholder="Título do Observacao" id="tituloObservacao" required><br>
 
         </form>
-        <textarea name="campoAviso" id="campoAviso" placeholder="Digite o aviso aqui…" cols="90" rows="10"></textarea><br>
-        <input type="button" name="enviarAviso" value="Enviar" class="botaoEnviarAviso" onclick="enviarAviso()">
-        <input type="button" name="salvarAviso" value="Salvar e sair" class="botaoSalvarAviso">
-        <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso">
+        <textarea name="campoObservacao" id="campoObservacao" placeholder="Digite o Observacao aqui…" cols="90" rows="10"></textarea><br>
+        <input type="button" name="enviarObservacao" value="Enviar" class="botaoEnviarObservacao" onclick="enviarObservacao()">
+        <input type="button" name="salvarObservacao" value="Salvar e sair" class="botaoSalvarObservacao">
+        <input type="button" name="sairObservacao" value="Sair" class="botaoSairObservacao">
     </main>
 
     <footer>
@@ -75,6 +75,6 @@
         <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
         </p>
     </footer>
-    <script src="pagRegAvisosSec.js"></script>
+    <script src="pagRegObservacaosSec.js"></script>
 </body>
 </html>

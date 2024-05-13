@@ -79,6 +79,7 @@ main h1 {
 }
 
 main {
+    display: block;
     text-align: center;
 }
 
@@ -93,8 +94,6 @@ main p {
     margin: 10px 0;
     box-sizing: border-box;
     border-radius: 4px;
-    margin-top: 0%;
-    border-radius: 4px;
     background-color: #f8f8f8;
 }
 
@@ -103,22 +102,6 @@ main p {
 }
 
 
-/*.editor {
-    border: 1px solid #ccc;
-    min-height: 100px;
-    padding: 12px 20px;
-    resize: none;
-    width: 50%;
-    overflow: auto;
-    margin-bottom: 15px;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    margin: 0 auto;
-}
-
-.editor:focus {
-    border: 1px solid #47525E;
-}*/
 
 textarea {
     border: 1px solid #ccc;
@@ -190,4 +173,58 @@ footer {
     position: absolute;
     background-color: #004651;
     color: #F4F4F4;
+}
+
+#registroAluno {
+    padding: 10px;
+    border: 1px solid #47525E;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin-top: 50px;
+}
+
+#registroAluno:focus {
+    border-color: #47525E;
+}
+
+#divRegistroAluno {
+    margin-bottom: 20px;
+}
+
+#divRegistroAluno button {
+    background-color: #004651;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#divRegistroAluno button:hover {
+    background-color: #00343f;
+}
+
+#tituloObservacao:focus {
+    border: 1px solid #47525E;
+}
+
+#campoObservacao {
+    border: 1px solid #ccc;
+    min-height: 100px;
+    padding: 12px 20px;
+    resize: none;
+    width: 50%;
+    overflow: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    margin: 0 auto;
+}
+
+#campoObservacao:focus {
+    border: 1px solid #47525E;
+}
+
+.button-container {
+    text-align: center;
 }

@@ -78,7 +78,7 @@ select {
   padding: 10px 15px;
 }
 
-#camposAvisosSec {
+#camposObservacaosSec {
   display: flex;
   align-items: end;
   gap: 20px;
@@ -103,7 +103,7 @@ select {
 padding: 10px 15px;
 }
 
-#tituloAviso {
+#tituloObservacao {
   width: 50%;
   padding: 12px 20px;
   margin: 10px 0;
@@ -114,7 +114,7 @@ padding: 10px 15px;
   background-color: #f8f8f8;
 }
 
-#tituloAviso:focus {
+#tituloObservacao:focus {
   border: 1px solid #47525E;
 }
 
@@ -130,7 +130,7 @@ textarea {
   margin: 0 auto;
 }
 
-.botaoEnviarAviso {
+.botaoEnviarObservacao {
   background-color: #004651;
   border: none;
   color: white;
@@ -141,11 +141,11 @@ textarea {
   border-radius: 4px;
 }
 
-.botaoEnviarAviso:hover {
+.botaoEnviarObservacao:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.botaoSalvarAviso {
+.botaoSalvarObservacao {
   background-color: #00A181;
   border: none;
   color: white;
@@ -156,11 +156,11 @@ textarea {
   border-radius: 4px;
 }
 
-.botaoSalvarAviso:hover {
+.botaoSalvarObservacao:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.botaoSairAviso {
+.botaoSairObservacao {
   background-color: #969FAA;
   border: none;
   color: white;
@@ -171,7 +171,7 @@ textarea {
   border-radius: 4px;
 }
 
-.botaoSairAviso:hover {
+.botaoSairObservacao:hover {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
