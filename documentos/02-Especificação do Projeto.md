@@ -116,17 +116,19 @@
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  A aplicação deve permitir ao professor(a) registrar frequência, notas e observações sobre os alunos. | ALTA | 
-| RF-02 |  A aplicação deve permitir ao professor(a) e aos responsáveis acessar com login com usuário e senha.  | ALTA |
-| RF-03 | A aplicação deve permitir ao aluno acesso somente leitura de notas, datas de eventos e observações do professor com login. | ALTA |
-| RF-04 | A aplicação deve possibilitar ao secretário(a) escolar criar o perfil de aluno(a), professor(a) e responsável. | ALTA |
-| RF-05 | A aplicação deve permitir ao responsável enviar recados e justificativas de ausência ao acessar com login e senha. | MÉDIA |
-| RF-06 | A aplicação deve permitir ao secretário(a) escolar receber e enviar mensagens dos responsáveis. | MÉDIA |
-| RF-07 | A aplicação deve permitir ao secretário(a) escolar registrar eventos e datas comemorativas. | BAIXA |
-| RF-08 | A aplicação deve permitir ao professor(a) buscar o perfil de aluno(a) pelo nome. | BAIXA |
-| RF-09 | A aplicação deve permitir ao responsável acesso somente leitura de notas, eventos, observações e avisos com login e senha. | ALTA |
-| RF-10 | A aplicação deve possibilitar ao secretário adicionar e vincular o perfil de aluno(s) e responsável. | ALTA |
-| RF-11 | A aplicação deve permitir ao professor(a) visualizar as datas e eventos. | BAIXA |
+| RF-01 |  A aplicação deve permitir ao professor(a) registrar a frequência dos alunos. | ALTA | 
+| RF-02 |  A aplicação deve permitir ao professor(a) inserir as notas dos alunos. | ALTA | 
+| RF-03 |  A aplicação deve permitir ao professor(a) registrar e enviar observações sobre os alunos aos responsáveis. | ALTA | 
+| RF-04 |  A aplicação deve permitir ao professor(a) e aos responsáveis acessar com login com usuário e senha.  | ALTA |
+| RF-05 | A aplicação deve permitir ao aluno acesso somente leitura de notas, datas de eventos e observações do professor com login. | ALTA |
+| RF-06 | A aplicação deve possibilitar ao secretário(a) escolar criar o perfil de aluno(a), professor(a) e responsável. | ALTA |
+| RF-07 | A aplicação deve permitir ao responsável enviar recados e justificativas de ausência ao acessar com login e senha. | MÉDIA |
+| RF-08 | A aplicação deve permitir ao secretário(a) escolar receber e enviar mensagens dos responsáveis. | MÉDIA |
+| RF-09 | A aplicação deve permitir ao secretário(a) escolar registrar eventos e datas comemorativas. | BAIXA |
+| RF-10 | A aplicação deve permitir ao professor(a) buscar o perfil de aluno(a) pelo nome. | BAIXA |
+| RF-11 | A aplicação deve permitir ao responsável acesso somente leitura de notas, eventos, observações e avisos com login e senha. | ALTA |
+| RF-12 | A aplicação deve possibilitar ao secretário adicionar e vincular o perfil de aluno(s) e responsável. | ALTA |
+| RF-13 | A aplicação deve permitir ao professor(a) visualizar as datas e eventos. | BAIXA |
 
 **Prioridade: Alta / Média / Baixa. 
 
