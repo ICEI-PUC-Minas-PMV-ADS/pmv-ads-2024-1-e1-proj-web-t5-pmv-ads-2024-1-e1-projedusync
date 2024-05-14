@@ -1,9 +1,10 @@
-function enviarObservacaos() {
-    var dadosObservacaos = {};
-
-    dadosObservacaos.tituloObservacao = document.getElementById('tituloObservacao').value;  
-    dadosObservacaos.campoObservacao = document.getElementById('campoObservacao').value; 
-
-    console.log(dadosObservacaos);
+function enviarAvisos() {
+    var dadosAvisos = {};
+ 
+    dadosAvisos.tituloAviso = document.getElementById('tituloAviso').value;  
+    dadosAvisos.campoAviso = document.getElementById('campoAviso').value;
+ 
+    console.log(dadosAvisos);
 }
+ 
 
