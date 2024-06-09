@@ -17,18 +17,18 @@
         <p>Insira as informações relacionadas ao responsável que deseja cadastrar.</p><br>
 
         <form name="cadastroResponsavel" action="do_cadastro.html" method="POST" onsubmit="cadastrar(event)">
-            <input type="text" name="nomeResp" value="" placeholder="Nome completo" id="nomeResp" required><br>
+            <input type="text" name="nomeResp" value="" placeholder="Nome completo*" id="nomeResp" required><br>
             <input type="text" name="emailResp" value="" placeholder="E-mail" id="emailResp"><br>
             <div class="aluno-container">
-                <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)" id="nomeAlunoResp"
-                    class="aluno-input">
+                <input type="text" name="nomeAlunoResp" value="" placeholder="Nome do(a) aluno(a)*" id="nomeAlunoResp"
+                    required class="aluno-input">
                 <img class="iconeAddAluno" src="iconadd.png" onclick="adicionarAluno()"><br>
             </div>
             <div id="inputs-alunos">
 
             </div>
 
-            <input type="password" name="senhaResp" value="" placeholder="Senha" id="senhaResp" required><br>
+            <input type="password" name="senhaResp" value="" placeholder="Senha*" id="senhaResp" required><br>
             <input type="submit" name="enviarCadResp" value="Cadastrar" class="botaoMain" id="botaoCadResp">
         </form>
     </main>
