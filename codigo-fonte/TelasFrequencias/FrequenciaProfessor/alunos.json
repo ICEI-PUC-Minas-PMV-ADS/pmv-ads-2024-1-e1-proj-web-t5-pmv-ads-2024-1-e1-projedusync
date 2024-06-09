@@ -1,0 +1,34 @@
+{
+	"Turma 01": [
+	  {
+		"Nome Completo": "João Silva Gonçalves",
+		"Nome do responsável 1": "Marcos Silva Gonçalves",
+		"Nome do responsável 2": "Ana Maria Gonçalves",
+		"Ano Escolar": "1º ano",
+		"Número Matrícula": "001"
+	  },
+	  {
+		"Nome Completo": "Maria Oliveira Costa",
+		"Nome do responsável 1": "José Oliveira Costa",
+		"Nome do responsável 2": "Clara Oliveira Costa",
+		"Ano Escolar": "1º ano",
+		"Número Matrícula": "002"
+	  }
+	],
+	"Turma 02": [
+	  {
+		"Nome Completo": "Gabriel Pereira Alves",
+		"Nome do responsável 1": "Carlos Pereira Alves",
+		"Nome do responsável 2": "Fernanda Pereira Alves",
+		"Ano Escolar": "1º ano",
+		"Número Matrícula": "003"
+	  },
+	  {
+		"Nome Completo": "Amanda Costa Lima",
+		"Nome do responsável 1": "Ricardo Costa Lima",
+		"Nome do responsável 2": "Juliana Costa Lima",
+		"Ano Escolar": "1º ano",
+		"Número Matrícula": "004"
+	  }
+	]
+  }

@@ -1,74 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style_freq_prof.css">
-    <script defer src="script_freq_prof.js"></script>
-    <title>Frequência Professor</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style_freq_prof.css" />
+  <script defer src="script_freq_prof.js"></script>
+  <title>Frequência Professor</title>
 </head>
 
 <body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <h1>
+          <a href="#">
+            <img src="images/iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSyncpng" />
+            EduSync
+          </a>
+        </h1>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
+          <li class="nav-item"><a href="#" class="nav-link" id="nav-ativa">Frequência</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+        </ul>
+      </div>
 
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
+      <div class="pesquisa">
+        <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+        <img src="images/search3.png" id="btnPesquisa" alt="Pesquisa" />
+      </div>
+    </nav>
+  </header>
 
-                <h1></a><img src="images/iconEduSync.png" alt="logo Edusync" width="30" height="25"
-                        id="logoEduSyncpng">EduSync </h1>
+  <main>
+    <div class="FreqAlunos">
+      <h1>Frequência de Alunos</h1>
+    </div>
 
-            </div>
+    <div class="data">
+      <form action="/action_page.php">
+        <label for="Data">Data:</label>
+        <input type="date" id="calendario" name="Data" min="2024-02-02" max="2024-12-15" />
+        <input type="submit" value="Pesquisar" />
+      </form>
+    </div>
 
-            <div class="nav-list">
-                <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Observacaos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link" id="nav-ativa">Frequência</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
-                </ul>
-            </div>
+    <div class="turma" style="margin: 30px">
+      <form name="turma" action="do_Freq_Professor.html" method="post">
+        <select name="Turma" id="selectTurma">
+          <option value="Selecionar Turma">Selecionar Turma</option>
+          <option value="Turma 01">Turma 01</option>
+          <option value="Turma 02">Turma 02</option>
+        </select>
+      </form>
+    </div>
+    <div id="tabelas"></div>
+  </main>
 
-            <div class="pesquisa">
-                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
-                <img src="images/search3.png" id="btnPesquisa" alt="Pesquisa" />
-            </div>
-        </nav>
-    </header>
-
-    <main>
-        <div class="FreqAlunos">
-            <h1>Frequência de Alunos </h1>
-        </div>
-
-        <div class="data">
-            <form action="/action_page.php">
-                <label for="Data">Data:</label>
-                <input type="date" id="calendario" name="Data" min="2024-02-02" max="2024-12-15">
-                <input type="submit" value="Pesquisar">
-            </form>
-        </div>
-
-        <div class="turma" style="margin: 30px">
-            <form name="turma" action="do_Freq_Professor.html" method="post">
-                <select name="Turma" id="selectTurma">
-                    <option value="Selecionar Turma">Selecionar Turma</option>
-                    <option value="Turma 01">Turma 01</option>
-                    <option value="Turma 02">Turma 02</option>
-                    <option value="Turma 03">Turma 03</option>
-                    <option value="Turma 04">Turma 04</option>
-                </select>
-            </form>
-        </div>
-        <div id="tabelas"></div>
-    </main>
-
-    <footer>
-        <img src="images/iconEduSync.png" alt="logo" width="30px" height="30px">
-        <p>Copyright © 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.</p>
-    </footer>
-   
+  <footer>
+    <img src="images/iconEduSync.png" alt="logo" width="30px" height="30px" />
+    <p>
+      Copyright © 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+    </p>
+  </footer>
 </body>
-
 </html>
