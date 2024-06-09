@@ -3,7 +3,7 @@
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
 
 Os requisitos para realização dos testes de software são:
-<ul><li>Site publicado na internet;</li>
+<ul><li>Site armazenado no LocalStorage ;</li>
 <li>Navegador da internet: Chrome, Firefox ou Edge.</li>
 </ul>
 
@@ -54,6 +54,32 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
+ 
+ <tr>
+  <td>CT-02: Verificar a página de frequência do Professor</td>
+  <td>
+   <ul>
+   
+   <li>RF-01: A aplicação deve permitir ao professor(a) registrar a frequência dos alunos.</li>
+   
+   </ul>
+  </td>
+  <td>Verificar se a lista de frequência está marcando ou não presença dos alunos. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Cadastro.</li>
+    <li>Entrar com login e senha do usuário (Professor).</li>
+    <li> Clicar na aba de Frequência da página home.  </li>
+    <li> Marcar presença ou falta do aluno. </li>
+   </ol>
+   </td>
+  <td> Ao clicar nos botões de presença ou falta, marca na tabela e mantém salvo. </td>
+  <td> Igor </td>
+ </tr>
+</table>
+
 
 
 
