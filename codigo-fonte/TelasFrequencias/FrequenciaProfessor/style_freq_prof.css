@@ -19,7 +19,7 @@ header {
   color: #004651;
 
   h1 {
-    color: #000;
+      color: #000;
   }
 }
 
@@ -35,20 +35,11 @@ header {
   font-style: normal;
   display: flex;
   align-items: center;
-  text-decoration: none;
 
 }
-
-
 
 #logoEduSyncpng {
   padding-right: 5px;
-}
-
-#logoEduSyncpng:hover {
-
-  text-decoration: underline;
-  color: #004651;
 }
 
 .nav-list ul {
@@ -173,9 +164,13 @@ tr:nth-child(even) {
 }
 
 footer {
+
   background-color: #004651;
   color: white;
   text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
   width: 100%;
 
 
@@ -188,9 +183,17 @@ footer {
 
   input {
 
-    color: 000; 
-    background-color: white
+      color: 000;
+      background-color: white;
   }
 }
 
-;
+.logo a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.logo a:hover {
+  cursor: pointer;
+ 
+}
