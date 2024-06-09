@@ -129,8 +129,8 @@ Amarelo: #F2EF12
   display: flex;
   align-items:center;
   justify-content: right;
-  position: relative;
-  bottom: 320px;
+  position: fixed;
+  bottom: 110px;
   right: 100px;
 }
 
@@ -271,3 +271,5 @@ header .calendar-current-date {
 .calendar-dates li:not(.active):hover::before {
   background: #e4e1e1;
 }
+
+
