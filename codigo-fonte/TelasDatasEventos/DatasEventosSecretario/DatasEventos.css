@@ -112,6 +112,7 @@ footer {
   width: 100%;
   background-color: #004651;
   color: white;
+<<<<<<< HEAD
   position: relative;
   bottom: 0;
 }
@@ -126,6 +127,22 @@ body {
   position: fixed;
   right: 20px;
   top: 120px;
+=======
+  text-align: center;                                                 
+}   
+
+ body {
+  overflow: hidden;
+ }
+
+  .calendar-complete {
+  display: flex;
+  align-items:center;
+  justify-content: right;
+  position: fixed;
+  bottom: 110px;
+  right: 100px;
+>>>>>>> 0117e5e87e3a24797e6d353fa5815b512fd4fbba
 }
 
 .calendar-container {
@@ -252,6 +269,7 @@ header .calendar-current-date {
   background: #e4e1e1;
 }
 
+<<<<<<< HEAD
 /* Estilos para botões de edição e exclusão */
 .evento {
   margin: 20px;
@@ -313,3 +331,6 @@ header .calendar-current-date {
   text-decoration: none;
   cursor: pointer;
 }
+=======
+
+>>>>>>> 0117e5e87e3a24797e6d353fa5815b512fd4fbba

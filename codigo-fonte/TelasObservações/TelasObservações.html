@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="TelasObservações.css">
-   
     <title>Observação do Professor</title>
 </head>
 <body>
     <header>
         <nav class="nav-bar">
             <div class="logo">
-                <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync
-                </h1>
+                <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync</h1>
             </div>
-
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                    <li class="nav-item"><a href="/codigo-fonte/TelasDatasEventos/DatasEventosProfessor/DatasEventos.html" class="nav-link">Datas e Eventos</a></li>
+                    <li class="nav-item"><a href="/codigo-fonte/TelasFrequencias/FrequenciaProfessor/Frequencia_professor.html" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="/codigo-fonte/TelasBoletim/telaboletimprofessor.html" class="nav-link">Notas</a></li>
                 </ul>
-
             </div>
             <div id="divPesquisa">
                 <input type="text" id="textpesquisa" placeholder="Pesquisa" />
                 <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
-
-            </div>
             </div>
         </nav>
     </header>
@@ -37,23 +29,21 @@
         <h1>Registro de observações</h1>
         <p>Preencha os campos abaixo para enviar uma observação.</p>
         <div id="divRegistroAluno">
-            <input type="search" id="registroAluno" placeholder="Nome do aluno">
+            <input type="search" id="registroAluno" placeholder="Matrícula do aluno">
             <button onclick="buscarAluno()">Buscar</button>
         </div>
-        <input type="text" name="tituloObservacao" value="" placeholder="Título da observação" id="tituloObservacao" required><br>
-        <textarea name="campoObservacao" placeholder="Digite a observação aqui…" cols="90" rows="10" id="campoObservacao"></textarea><br>
+        <input type="text" name="tituloObservacao" value="" placeholder="Título da observação" id="tituloObservacao" required disabled><br>
+        <textarea name="campoObservacao" placeholder="Digite a observação aqui…" cols="90" rows="10" id="campoObservacao" disabled></textarea><br>
         <div class="button-container">
-            <input type="button" name="enviarObservacao" value="Enviar" class="botaoEnviarObservacao" onclick="enviarObservacaos()">
-            <input type="button" name="salvarObservacao" value="Salvar e sair" class="botaoSalvarObservacao">
+            <input type="button" name="enviarObservacao" value="Enviar" class="botaoEnviarObservacao" onclick="enviarObservacaos()" disabled>
+            <input type="button" name="salvarObservacao" value="Salvar e sair" class="botaoSalvarObservacao" disabled>
             <input type="button" name="sairObservacao" value="Sair" class="botaoSairObservacao">
         </div>
     </main>
-    
-    <script src="TelasObservações.js"></script>
     <footer>
         <img src="iconEduSync.png" width="30" height="25">
-        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
-        </p>
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.</p>
     </footer>
+    <script src="TelasObservações.js"></script>
 </body>
 </html>

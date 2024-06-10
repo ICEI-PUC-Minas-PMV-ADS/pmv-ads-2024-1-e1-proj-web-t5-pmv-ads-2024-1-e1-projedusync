@@ -7,11 +7,20 @@ fetch('data.json')
     })
     .catch(error => console.error('Não foi possivel encontrar os dados:', error));
 
-    document.querySelector('.sair').addEventListener('click', function() {
+    document.querySelector('.sair').addEventListener('click', function () {
         var confirmLogout = confirm("Tem certeza que deseja sair?");
         if (confirmLogout) {
+            localStorage.removeItem('usuarioLogado');
             window.location.href = "/codigo-fonte/TelaLogin/paginaLogin.html";
         } else {
             alert("Saída cancelada.");
         }
+    });
+
+    document.querySelector('.cadastro-li').addEventListener('mouseenter', function () {
+        document.getElementById("optionsMenu").style.display = "block";
+    });
+    
+    document.querySelector('.cadastro-li').addEventListener('mouseleave', function () {
+        document.getElementById("optionsMenu").style.display = "none";
     });
