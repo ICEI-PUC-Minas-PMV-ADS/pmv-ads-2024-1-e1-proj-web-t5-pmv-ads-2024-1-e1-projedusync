@@ -15,7 +15,7 @@ function fazerLogin(event) {
         else if (dadosLogin.credencial === 'aluno') {
             window.location.href = '../TelaInicial/TelaInicialAluno/TelaInicialAluno.html';
         }
-        else if (dadosLogin.credencial === 'resposavel') {
+        else if (dadosLogin.credencial === 'responsavel') {
             window.location.href = '../TelaInicial/TelaInicialRespon/TelaInicialResponsa.html';
         }
         else if (dadosLogin.credencial === 'secretario') {

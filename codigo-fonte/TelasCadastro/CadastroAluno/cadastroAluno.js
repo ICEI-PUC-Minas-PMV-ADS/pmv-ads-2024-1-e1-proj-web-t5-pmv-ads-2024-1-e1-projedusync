@@ -19,7 +19,7 @@ function cadastrar(event) {
         email: '',
         escola: '',
         nomesDeAluno: dadosCadastrais.nomeAluno,
-        nomesResponsavel: [nomeRespAluno1, nomeRespAluno2],
+        nomesResponsavel: [dadosCadastrais.nomeRespAluno1, dadosCadastrais.nomeRespAluno2],
         anoEscolar:  dadosCadastrais.anoAluno,
         turma:  dadosCadastrais.turmaAluno,
         materia: '',
