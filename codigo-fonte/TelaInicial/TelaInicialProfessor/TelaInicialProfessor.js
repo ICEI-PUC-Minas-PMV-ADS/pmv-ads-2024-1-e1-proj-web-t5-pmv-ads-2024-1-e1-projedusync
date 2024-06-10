@@ -69,7 +69,6 @@ function fazerLogin(event) {
     dadosLogin.senha = event.target.elements.senha.value
 
     if (usuarioExistente(dadosLogin)) {
-        // Recupera o usuário logado e armazena na variável usuarioLogado
         var usuarioLogado = JSON.parse(localStorage.getItem('usuarioLogado'));
 
         if (dadosLogin.credencial === 'professor') {
