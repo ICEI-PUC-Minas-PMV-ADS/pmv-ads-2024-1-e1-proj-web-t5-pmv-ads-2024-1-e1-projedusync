@@ -80,6 +80,40 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+<tr>
+  <td>CT-04: Verificar a página de datas e eventos do secretário</td>
+  <td>
+   <ul>
+   
+   <li>RF-09: A aplicação deve permitir ao secretário(a) escolar registrar eventos e datas comemorativas.</li>
+   
+   </ul>
+  </td>
+  <td>Verificar se registro de eventos está sendo feito corretamente. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Visualizar a página de Cadastro.</li>
+    <li>Entrar com login e senha do usuário (Secretário).</li>
+    <li> Clicar na aba de Datas e Eventos da página home.  </li>
+    <li> Adicionar evento. </li>
+   </ol>
+   </td>
+  <td> Ao clicar no icone adicionar, abre uma tela para selecionar a data e um campo para inserir o evento. </td>
+  <td> Suzany </td>
+ </tr>
+</table>
+
 
 
 

@@ -1,6 +1,8 @@
 function cadastrar(event) {
     event.preventDefault();
 
+    iniciarBancoDeDados();
+
     var dadosCadastrais = {};
 
     dadosCadastrais.nomesAlunosResp = [];
@@ -23,6 +25,27 @@ function cadastrar(event) {
         alert("Adicione pelo menos um(a) aluno(a).");
 
     console.log(dadosCadastrais);
+
+    let listaDeUsuarios = JSON.parse(localStorage.getItem('listaDeUsuarios'));// inicio Local Storage
+
+    listaDeUsuarios.push({
+        id: listaDeUsuarios.length + 1,
+        nome: dadosCadastrais.nomeResp,
+        email: dadosCadastrais.emailResp,
+        escola: '',
+        nomesDeAluno: dadosCadastrais.nomesAlunosResp,
+        nomesResponsavel: [],
+        anoEscolar: '',
+        turma: '',
+        materia: '',
+        credencial: 'responsavel',
+        matricula: '',
+        senha: dadosCadastrais.senhaResp,
+    });
+
+    localStorage.setItem('listaDeUsuarios', JSON.stringify(listaDeUsuarios));
+
+   alert('Responsável registrado com sucesso!');
 }
 
 function adicionarAluno() {
@@ -39,75 +62,77 @@ function adicionarAluno() {
     divAlunos.appendChild(input);
 }
 
-function iniciarBancoDeDados() { // fiz agora
-    let listaDeUsuarios = localStorage.getItem('listaDeUsuarios');
+function iniciarBancoDeDados() { 
+        let listaDeUsuarios = localStorage.getItem('listaDeUsuarios');
 
-    if (!!!listaDeUsuarios) {
-        listaDeUsuarios = popularListaDeUsuarios();
-        localStorage.setItem('listaDeUsuarios', JSON.stringify(listaDeUsuarios));
+        if (!!!listaDeUsuarios) {
+            listaDeUsuarios = popularListaDeUsuarios();
+            localStorage.setItem('listaDeUsuarios', JSON.stringify(listaDeUsuarios));
+        }
     }
-}
 
-function popularListaDeUsuarios() { // fiz agora
-    let listaDeUsuarios = [];
+    function popularListaDeUsuarios() { 
+        let listaDeUsuarios = [];
 
-    listaDeUsuarios.push({
-        id: 1,
-        nome: 'João Maria',
-        email: 'joaomaria@hotmail.com',
-        escola: 'belgado filho',
-        nomeDoAluno: '',
-        nomesResponsavel: [],
-        anoEscolar: '',
-        turma: '',
-        materia: 'Matemática',
-        credencial: 'professor',
-        matricula: '789123',
-        senha: '123'
-    });
+        listaDeUsuarios.push({
+            id: 1,
+            nome: 'João Maria',
+            email: 'joaomaria@hotmail.com',
+            escola: 'Belgado Filho',
+            nomesDeAluno: [],
+            nomesResponsavel: [],
+            anoEscolar: '',
+            turma: '',
+            materia: 'Matemática',
+            credencial: 'professor',
+            matricula: '789123',
+            senha: '123'
+        });
 
-    listaDeUsuarios.push({
-        id: 2,
-        nome: 'Maria José',
-        email: 'mariajose@gmail.com',
-        escola: 'belgado filho',
-        nomeDoAluno: '',
-        nomesResponsavel: ['João Maria', 'Juana Silva'],
-        anoEscolar: '3º ano',
-        turma: '3003',
-        materia: '',
-        credencial: 'aluno',
-        matricula: '123456',
-        senha: '123'
-    });
+        listaDeUsuarios.push({
+            id: 2,
+            nome: 'Maria José',
+            email: 'mariajose@gmail.com',
+            escola: 'Belgado Filho',
+            nomesDeAluno: [],
+            nomesResponsavel: ['João Maria', 'Joana Souza'],
+            anoEscolar: '3º ano',
+            turma: '3003',
+            materia: '',
+            credencial: 'aluno',
+            matricula: '123456',
+            senha: '123'
+        });
 
-    listaDeUsuarios.push({
-        id: 2,
-        nome: 'Joana Souza',
-        email: 'joanasouza@gmail.com',
-        escola: '',
-        nomeDoAluno: 'Maria José',
-        nomesResponsavel: '',
-        anoEscolar: '',
-        turma: '',
-        materia: '',
-        credencial: 'responsavel',
-        matricula: '123456',
-        senha: '123'
-    });
+        listaDeUsuarios.push({
+            id: 2,
+            nome: 'Joana Souza',
+            email: 'joanasouza@gmail.com',
+            escola: '',
+            nomesDeAluno: ['Maria José'],
+            nomesResponsavel: '',
+            anoEscolar: '',
+            turma: '',
+            materia: '',
+            credencial: 'responsavel',
+            matricula: '123456',
+            senha: '123'
+        });
 
-    return listaDeUsuarios;
-}
+        listaDeUsuarios.push({
+            id: 2,
+            nome: 'Gisele Pereira',
+            email: '',
+            escola: '',
+            nomesDeAluno: [],
+            nomesResponsavel: '',
+            anoEscolar: '',
+            turma: '',
+            materia: '',
+            credencial: 'secretario',
+            matricula: '654321',
+            senha: '123'
+        });
 
-function usuarioExistente(dadosLogin) {
-    let listaDeUsuarios = JSON.parse(localStorage.getItem('listaDeUsuarios'));
-
-    let usuario = listaDeUsuarios.find(usuario => usuario.matricula === dadosLogin.matricula
-        && usuario.senha === dadosLogin.senha
-        && dadosLogin.credencial === usuario.credencial);
-
-    if (!!usuario) {
-        localStorage.setItem('usuarioLogado', JSON.stringify(usuario));
-        return true;
-    }
-}
+        return listaDeUsuarios;
+    }// fim Local Storage

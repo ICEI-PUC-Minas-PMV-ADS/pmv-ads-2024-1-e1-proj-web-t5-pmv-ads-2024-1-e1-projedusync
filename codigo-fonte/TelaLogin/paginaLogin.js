@@ -8,7 +8,7 @@ function fazerLogin(event) {
     dadosLogin.matricula = event.target.elements.matricula.value
     dadosLogin.senha = event.target.elements.senha.value
 
-    if (usuarioExistente(dadosLogin)) {
+    if (usuarioExistente(dadosLogin)) { // início Local Storage
         if (dadosLogin.credencial === 'professor') {
             window.location.href = '../TelaInicial/TelaInicialProfessor/TelaInicialProfessor.html';
         }
@@ -17,15 +17,18 @@ function fazerLogin(event) {
         }
         else if (dadosLogin.credencial === 'resposavel') {
             window.location.href = '../TelaInicial/TelaInicialRespon/TelaInicialResponsa.html';
+        }
+        else if (dadosLogin.credencial === 'secretario') {
+            window.location.href = '../TelaInicial/TelaInicialSecretario/TelaInicialSecretario.html';
+        }
+        console.log(dadosLogin);
     }
     else {
-        alert('Credenciais inválidas');
+        alert('Usuário ou senha incorreto.');
     }
-
-    console.log(dadosLogin);
 }
 
-function iniciarBancoDeDados() { // fiz agora
+function iniciarBancoDeDados() {
     let listaDeUsuarios = localStorage.getItem('listaDeUsuarios');
 
     if (!!!listaDeUsuarios) {
@@ -34,7 +37,7 @@ function iniciarBancoDeDados() { // fiz agora
     }
 }
 
-function popularListaDeUsuarios() { // fiz agora
+function popularListaDeUsuarios() {
     let listaDeUsuarios = [];
 
     listaDeUsuarios.push({
@@ -42,7 +45,7 @@ function popularListaDeUsuarios() { // fiz agora
         nome: 'João Maria',
         email: 'joaomaria@hotmail.com',
         escola: 'Belgado Filho',
-        nomeDoAluno: '',
+        nomesDeAluno: [],
         nomesResponsavel: [],
         anoEscolar: '',
         turma: '',
@@ -57,7 +60,7 @@ function popularListaDeUsuarios() { // fiz agora
         nome: 'Maria José',
         email: 'mariajose@gmail.com',
         escola: 'Belgado Filho',
-        nomeDoAluno: '',
+        nomesDeAluno: [],
         nomesResponsavel: ['João Maria', 'Joana Souza'],
         anoEscolar: '3º ano',
         turma: '3003',
@@ -72,13 +75,28 @@ function popularListaDeUsuarios() { // fiz agora
         nome: 'Joana Souza',
         email: 'joanasouza@gmail.com',
         escola: '',
-        nomeDoAluno: 'Maria José',
+        nomesDeAluno: ['Maria José'],
         nomesResponsavel: '',
         anoEscolar: '',
         turma: '',
         materia: '',
         credencial: 'responsavel',
         matricula: '123456',
+        senha: '123'
+    });
+
+    listaDeUsuarios.push({
+        id: 2,
+        nome: 'Gisele Pereira',
+        email: '',
+        escola: '',
+        nomesDeAluno: [],
+        nomesResponsavel: '',
+        anoEscolar: '',
+        turma: '',
+        materia: '',
+        credencial: 'secretario',
+        matricula: '654321',
         senha: '123'
     });
 
@@ -96,4 +114,4 @@ function usuarioExistente(dadosLogin) {
         localStorage.setItem('usuarioLogado', JSON.stringify(usuario));
         return true;
     }
-}}
+}

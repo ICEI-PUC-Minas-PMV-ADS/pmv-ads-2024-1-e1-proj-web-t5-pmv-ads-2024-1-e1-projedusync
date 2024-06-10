@@ -5,14 +5,14 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
-  <li> CT-01: Verificar o funcionamento dos links da página Home.
+  <li> <b>CT-01: Verificar o funcionamento dos links da página Home.</b>
     
   Responsável: Juan
      (inserir vídeo) 
      
   </li>
 
-  <li>CT-02: Verificar a página de frequência do Professor
+  <li><b>CT-02: Verificar a página de frequência do Professor</b>
 
   Responsável: Igor
   
@@ -22,5 +22,18 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 
  
+  </li>
+  <li><b>CT-03: Verificar lançamento de notas do Professor</b>
+
+  Responsável: Luan
+  
+  <p> Usuário insere as notas nas labels de cada respectivo aluno desejado.</p>
+ 
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/62348524/90665a01-e231-4608-a948-162adbc36327)
+
+  <p> Apos serem inseridas, a pagina vai somar todas as notas e retornar no campo "Total", logo apos isso outra função será executada para verificar se o aluno foi Aprovado ou Reprovado mostradno o resultado no campo "Resultado Final".</p>
+ 
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/62348524/9fc8eb8a-7545-4f9c-a97e-9862c09862e1)
+
   </li>
 </ol>
