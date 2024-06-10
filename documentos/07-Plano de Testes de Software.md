@@ -42,6 +42,39 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+<tr>
+  <td>CT-02: Verificar o funcionamente dos links da página HOME.</td>
+  <td>
+   <ul>
+   
+   <li>RF-04: A aplicação deve permitir ao professor(a) e aos responsáveis acessar com login com usuário e senha.</li>
+    <li>RF-05: A aplicação deve permitir ao aluno acesso somente leitura de notas, datas de eventos e observações do professor com login.</li>
+   </ul>
+  </td>
+  <td>Verificar se as páginas estão propriamente conectadas a página inicial. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Entrar com login e senha do usuário.</li>
+    <li>Clicar nos links da página home.</li>
+    <li>Clicar no botão sair.</li>
+    <li>Confirmar.</li>
+   </ol>
+   </td>
+  <td> Links própriamente direcionados e confirmação para sair funcionando.</td>
+  <td> Juan </td>
+ </tr>
+</table>
 
 <table>
  <tr>
@@ -54,7 +87,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
  
  <tr>
-  <td>CT-02: Verificar a página de frequência do Professor</td>
+  <td>CT-03: Verificar a página de frequência do Professor</td>
   <td>
    <ul>
    
@@ -90,7 +123,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 <tr>
-  <td>CT-03: Verificar lançamento de notas do Professor</td>
+  <td>CT-04: Verificar lançamento de notas do Professor</td>
   <td>
    <ul>
    
@@ -122,7 +155,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
 <tr>
-  <td>CT-04: Verificar a página de datas e eventos do secretário</td>
+  <td>CT-05: Verificar a página de datas e eventos do secretário</td>
   <td>
    <ul>
    
@@ -155,7 +188,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
 <tr>
-  <td>CT-05: Permitir o envio da observação, para um dos alunos cadastrados.</td>
+  <td>CT-06: Permitir o envio da observação, para um dos alunos cadastrados.</td>
   <td>
    <ul>
    
