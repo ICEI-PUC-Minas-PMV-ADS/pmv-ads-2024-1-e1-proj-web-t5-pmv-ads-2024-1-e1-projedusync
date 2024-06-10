@@ -25,7 +25,10 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
   Responsável: Juan
 
 Professor
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/4fa7e616-b02e-486f-b620-75b53d21352f 
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/e6b92463-368f-4e0d-8d09-3e8ef025a97b
+
 
 Secretario
 
