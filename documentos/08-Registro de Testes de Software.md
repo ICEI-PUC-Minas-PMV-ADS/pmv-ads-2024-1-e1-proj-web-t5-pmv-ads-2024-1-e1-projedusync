@@ -4,6 +4,21 @@
 
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
+<li>
+  <b>CT-01: Verificar login dos usuários e vínculo com a página inicial</b>
+ 
+  Responsável: Juliane
+<p> Usuário executa o login com a respectiva credencial.</p>
+
+ ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/img/Edusync/testeLoginEduSync.mp4)
+ 
+  <p> Depois de adicionar eventos, a tela de registro fecha e o evento fica salvo.".</p>
+  
+
+
+ 
+</li>
+
 <ol>
   <li> <b>CT-01: Verificar o funcionamento dos links da página Home.</b>
     
@@ -37,3 +52,20 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
   </li>
 </ol>
+
+<li>
+  <b>CT-04: Verificar a página de datas e eventos do secretário</b>
+ 
+  Responsável: Suzany
+<p> Usuário(secretário) adiciona data e evento.</p>
+
+  ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/DatasEventos1.png)
+ 
+  <p> Depois de adicionar eventos, a tela de registro fecha e o evento fica salvo.".</p>
+  
+  ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/DatasEventos3.png)
+<p> O usuário também tem a opção de editar ou excluir o evento adicionado".</p>
+
+  ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/DatasEventos2.png)
+</li>
+
