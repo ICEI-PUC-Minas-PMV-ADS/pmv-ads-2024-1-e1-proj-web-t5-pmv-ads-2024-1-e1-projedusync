@@ -23,4 +23,16 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
  
   </li>
+  <li>CT-03: Verificar lançamento de notas do Professor
+
+  Responsável: Luan
+  
+  <p> Usuário insere as notas nas labels de cada respectivo aluno desejado.</p>
+ 
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/62348524/90665a01-e231-4608-a948-162adbc36327)
+
+  <p> Apos serem inseridas, a pagina vai somar todas as notas e retornar no campo "Total", logo apos isso outra função será executada para verificar se o aluno foi Aprovado ou Reprovado mostradno o resultado no campo "Resultado Final".</p>
+ 
+  ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/62348524/90665a01-e231-4608-a948-162adbc36327)
+  </li>
 </ol>
