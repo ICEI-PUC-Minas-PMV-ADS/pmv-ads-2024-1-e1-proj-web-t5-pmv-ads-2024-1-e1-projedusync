@@ -10,7 +10,11 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
   Responsável: Juliane
 <p> Usuário executa o login com a respectiva credencial.</p>
 
-![image](documentos/img/Edusync/testeLoginEduSync.mov)
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/0ef16f3f-5066-4719-936b-11f68910b498
+
+
  
  
 </li>
