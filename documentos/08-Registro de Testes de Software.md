@@ -20,12 +20,12 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
 </li>
 
 <ol>
-  <li> <b>CT-01: Verificar o funcionamento dos links da página Home.</b>
+  <li> <b>CT-02: Verificar o funcionamento dos links da página Home.</b>
     
   Responsável: Juan
 
 Professor
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/4fa7e616-b02e-486f-b620-75b53d21352f
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/4fa7e616-b02e-486f-b620-75b53d21352f 
 
 Secretario
 
@@ -36,7 +36,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
      
   </li>
 
-  <li><b>CT-02: Verificar a página de frequência do Professor</b>
+  <li><b>CT-03: Verificar a página de frequência do Professor</b>
 
   Responsável: Igor
   
@@ -47,7 +47,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
 
  
   </li>
-  <li><b>CT-03: Verificar lançamento de notas do Professor</b>
+  <li><b>CT-04: Verificar lançamento de notas do Professor</b>
 
   Responsável: Luan
   
@@ -63,7 +63,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
 </ol>
 
 <li>
-  <b>CT-04: Verificar a página de datas e eventos do secretário</b>
+  <b>CT-05: Verificar a página de datas e eventos do secretário</b>
  
   Responsável: Suzany
 <p> Usuário(secretário) adiciona data e evento.</p>
@@ -78,7 +78,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
   ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/DatasEventos2.png)
 </li>
 
-<li><b>CT-05: Verificar a observações do professor</b>
+<li><b>CT-06: Verificar a observações do professor</b>
  
   Responsável: Juan
 
