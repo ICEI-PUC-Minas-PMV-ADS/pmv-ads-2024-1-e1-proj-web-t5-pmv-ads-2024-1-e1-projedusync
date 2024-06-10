@@ -1,145 +1,153 @@
-/* Outros estilos */
-* {
-  padding: 0;
-  margin: 0;
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
 
-html, body {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-}
+   /*Verde claro: #A4E473
+Verde médio: #00A181
+Verde escuro:#004651
+"Branco": #F4F4F4
+Preto: #000000
+Amarelo: #F2EF12
+*/
+   
+   * {
+    padding:0;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+   }
 
-#logoEduSync {
-  padding-right: 5px;
-}
+   #logoEduSync {
 
-header {
-  background-color: white;
-  box-shadow: 0px 3px 10px; 
-  color: #004651;
-}
+    padding-right: 5px;
+  }
 
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  padding: 1.5rem 6rem;
-}
+   header {
+    background-color: white;
+    box-shadow: 0px 3px  10px; color: #004651;
+  }
 
-.logo {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  display: flex;
-  align-items: center;
-}
+  .nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 6rem;
+  }
 
-.nav-list ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
+  .logo {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+  }
 
-.nav-item {
-  margin: 0 15px;
-}
+  .nav-list ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
 
-.nav-link {
-  text-decoration: none;
-  font-size: 1.15rem;
-  color: #47525E;
-  font-weight: 400;
-}
+  .nav-item {
+    margin: 0 15px;
 
-.input {
-  border: none;
-  padding: 10px 15px;
-  border-radius: 15px;
-  display: flex;
-}
+  }
 
-#btnPesquisa {
+  .nav-link {
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #47525E;
+    font-weight: 400;
+  }
+
+  .input {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 15px;
+    display: flex;
+  }
+
+  #btnPesquisa {
+    border:none;
+    float:right;
+    height:20px;
+  }
+
+  #linha {
+    width: 50%;
+    border-bottom: 1px solid #000000;
+    padding: 40px;
+  }
+
+  #btnAdicionar {
+    border: none;
+    float:right;
+    height:30px;
+    display: flex;
+    padding-right: 2px;
+  }
+  
+  
+  main h1 {
+    padding: 40px ;
+  }
+
+  h2 {
+   padding: 20px;
+  }
+
+  p {
+    margin: 20px;
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+ #btnEditar{
+  position: relative;
+  left: 25px;
   border: none;
   float: right;
-  height: 20px;
-}
-
-main {
-  flex: 1;
-  padding: 20px;
-  overflow-y: auto; /* Permitir rolagem vertical */
-}
-
-.events-container {
-  flex: 1;
-  overflow-y: auto;
-}
-
-#linha {
-  width: 50%;
-  border-bottom: 1px solid #000000;
-  padding: 20px;
-  margin-bottom: 20px;
-}
-
-#btnAdicionar, #btnEditar {
-  border: none;
-  height: 30px;
+  height: 25px;
   display: flex;
-  cursor: pointer;
-}
+  padding-right: 0.200px;
+  padding-top: 60px;
+ }
 
-main h1 {
-  padding: 20px;
-}
-
-h2 {
-  padding: 20px;
-}
-
-p {
-  margin: 20px;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-footer {
+ footer {
   text-align: center;
   padding: 5px;
   width: 100%;
+  bottom: 0;
+  position: absolute;
   background-color: #004651;
   color: white;
-  position: relative;
-  bottom: 0;
-}
+  text-align: center;                                                 
+}   
 
-body {
-  overflow: hidden; /* Impedir rolagem da página */
-}
+ body {
+  overflow: hidden;
+ }
 
-/* Estilos do calendário */
-.calendar-complete {
-  width: 300px;
+  .calendar-complete {
+  display: flex;
+  align-items:center;
+  justify-content: right;
   position: fixed;
-  right: 20px;
-  top: 120px;
+  bottom: 110px;
+  right: 100px;
 }
 
 .calendar-container {
-  position: relative;
+  position:relative;
   background: #fff;
-  width: 100%;
+  width: 600px;
   border-radius: 10px;
   box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
+   
 }
+
 
 .calendar-container header {
   display: flex;
-  align-items: center;
-  padding: 20px 15px 5px;
+  align-items:center;
+  padding: 35px 30px 10px;
   justify-content: space-between;
 }
 
@@ -147,46 +155,57 @@ header .calendar-navigation {
   display: flex;
 }
 
-header .calendar-navigation {
-  height: 28px; /* Reduzido de 38px para 28px */
-  width: 10px; /* Reduzido de 15px para 10px */
+header .calendar-navigation  {
+  height: 38px;
+  width: 15px;
   margin: 0 1px;
   cursor: pointer;
   text-align: center;
   line-height: 20px;
   border-radius: 50%;
-  user-select: none;
+  user-select:none;
   color: #aeabab;
-  font-size: 1.5rem; /* Reduzido de 1.9rem para 1.5rem */
+  font-size: 1.9rem;
 }
 
-#calendar-prev {
+#calendar-prev{
+position: relative;
+bottom: 5px;
+right: 50px;
+}
+
+img#calendar-prev{
+  width: 50px;
+}
+
+#calendar-next{
   position: relative;
-  bottom: 2px;
-  right: 30px;
-}
+  bottom: 5px;
+  right: 40px;
+  }
+  
+  img#calendar-next{
+    width: 50px;
+  }
 
-img#calendar-prev {
-  width: 30px; /* Reduzido de 50px para 30px */
+.calendar-navigation span:last-child {
+  margin-right: -10px;
+  width: 10px;
+  height: 30px;
 }
+.calendar-navigation span:first-child {
+  margin-right: 10px;
+  width: 10px;
+  height: 30px;
 
-#calendar-next {
-  position: relative;
-  bottom: 2px;
-  right: 20px;
 }
-
-img#calendar-next {
-  width: 30px; /* Reduzido de 50px para 30px */
-}
-
-.calendar-navigation span:hover {
+header .calendar-navigation span:hover {
   background: #f2f2f2;
 }
 
 header .calendar-current-date {
   font-weight: 500;
-  font-size: 1.1rem; /* Reduzido de 1.45rem para 1.1rem */
+  font-size: 1.45rem;
 }
 
 .calendar-body {
@@ -210,6 +229,7 @@ header .calendar-current-date {
   width: calc(100% / 7);
   font-size: 1.07rem;
   color: #414141;
+  
 }
 
 .calendar-body .calendar-weekdays li {
@@ -252,64 +272,5 @@ header .calendar-current-date {
   background: #e4e1e1;
 }
 
-/* Estilos para botões de edição e exclusão */
-.evento {
-  margin: 20px;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
 
-.edit-btn, .delete-btn {
-  margin: 5px;
-  padding: 5px 10px;
-  border: none;
-  cursor: pointer;
-}
 
-.edit-btn {
-  background-color: #00A181;
-  color: white;
-}
-
-.delete-btn {
-  background-color: #FF0000;
-  color: white;
-}
-
-/* Estilos para o modal */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
-}
-
-.modal-content {
-  background-color: #fefefe;
-  margin: 15% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-  max-width: 600px;
-}
-
-.close {
-  color: #aaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: black;
-  text-decoration: none;
-  cursor: pointer;
-}
