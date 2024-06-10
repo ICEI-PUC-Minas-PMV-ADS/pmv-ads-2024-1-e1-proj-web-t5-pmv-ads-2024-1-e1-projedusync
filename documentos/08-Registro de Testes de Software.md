@@ -5,14 +5,14 @@
 Os testes funcionais realizados na aplicação web são descritos a seguir.
 
 <ol>
-  <li> CT-01: Verificar o funcionamento dos links da página Home.
+  <li> <b>CT-01: Verificar o funcionamento dos links da página Home.</b>
     
   Responsável: Juan
      (inserir vídeo) 
      
   </li>
 
-  <li>CT-02: Verificar a página de frequência do Professor
+  <li><b>CT-02: Verificar a página de frequência do Professor</b>
 
   Responsável: Igor
   
@@ -23,7 +23,7 @@ Os testes funcionais realizados na aplicação web são descritos a seguir.
 
  
   </li>
-  <li>CT-03: Verificar lançamento de notas do Professor
+  <li><b>CT-03: Verificar lançamento de notas do Professor</b>
 
   Responsável: Luan
   
