@@ -81,6 +81,14 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 
 <table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
 <tr>
   <td>CT-02: Verificar a página de datas e eventos do secretário</td>
   <td>
