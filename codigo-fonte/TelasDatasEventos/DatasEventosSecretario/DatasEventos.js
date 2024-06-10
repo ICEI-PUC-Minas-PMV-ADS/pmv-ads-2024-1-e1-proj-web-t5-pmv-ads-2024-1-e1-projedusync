@@ -89,40 +89,13 @@ prenexIcons.forEach(icon => {
         manipulate();
     });
 });
-    let conteudo = "";
-    dados.forEach((item) => {
-    conteudo += `
-      <tr id='linha-${item.id}'>
-        <td class='selecao'>
-          <input type="radio" name="campoSelecao" value="${item.id}" />
-        </td>
-        <td class="celula-1">
-          ${item.descricao}
-        </td>
-        <td class="celula-2"> 
-          ${formataData(item.data)}
-        </td>
-        <td class="celula-3">
-          ${prioridade(item.prioridade)}
-        </td>
-        <td></td>
-      </tr>
-    `;
-  });
-    corpoTabela.innerHTML = conteudo;
     
-    btnAdicionar.onclick = function () {
-    campoDescricao.value = "";
-    campoData.value = "";
-    campoDescricao.disabled = false;
-    modalTarefa.style.display = "block";
-    btMTCriar.style.display = "inline-block";
-    btMTAlterar.style.display = "none";
-    btMTExcluir.style.display = "none";
-    btMTCriar.disabled = true;
-    campoDescricao.focus();
- }
+  var botaoAdicionar = document.getElementById("botaoAdicionar");
 
+  botaoAdicionar.addEventListener("click", function() {
+    // Coloque aqui o código que deseja executar quando o botão é clicado
+    alert("Botão clicado!");
+});
 
   
    

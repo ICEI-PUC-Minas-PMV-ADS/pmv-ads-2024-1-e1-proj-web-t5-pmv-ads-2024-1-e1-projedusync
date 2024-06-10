@@ -272,4 +272,11 @@ header .calendar-current-date {
   background: #e4e1e1;
 }
 
+.botaoAdd{
+  border: none;
+  float:right;
+  height:5px;
+  display: flex;
+  padding-right: 30px;
+}
 
