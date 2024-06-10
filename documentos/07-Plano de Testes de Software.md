@@ -78,6 +78,41 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 </table>
 
 <table>
+<tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+</tr>
+
+
+
+<tr>
+  <td>CT-03: Verificar lançamento de notas do Professor</td>
+  <td>
+   <ul>
+   
+   <li>RF-09: A aplicação deve permitir ao Professor lançar/editar notas de alunos.</li>
+   </ul>
+  </td>
+  <td>Verificar se a soma e amostragem das notas estão corretos.</td>
+  <td>
+   <ol>
+    <li>Abrir boletim.</li>
+    <li>Achar nome do aluno.</li>
+    <li>Colar as notas nos três campos.</li>
+    <li>Verificar nota Total do aluno.</li>
+    <li>Verificar Resultado Final.</li>
+   </ol>
+   </td>
+  <td>A pagina deve ter feito o calculo das notas e mostrado os resultasdos de forma correta com "Aprovado" para notas acima de 60% e "Reprovado" para notas abaixo de 60%.</td>
+  <td>Luan Marinheiro</td>
+</tr>
+</table>
+
+<table>
  <tr>
   <th>Caso de teste</th>
   <th>Requisitos associados</th>
