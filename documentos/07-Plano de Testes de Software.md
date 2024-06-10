@@ -80,6 +80,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 </table>
 
+<table>
 <tr>
   <td>CT-02: Verificar a página de datas e eventos do secretário</td>
   <td>
