@@ -3,7 +3,7 @@
 <span style="color:red">Pré-requisitos: <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/02-Especifica%C3%A7%C3%A3o%20do%20Projeto.md"> Especificação do Projeto</a></span>, <a href="https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/blob/main/documentos/04-Projeto%20de%20Interface.md"> Projeto de Interface</a>
 
 Os requisitos para realização dos testes de software são:
-<ul><li>Site armazenado no LocalStorage ;</li>
+<ul><li>Site armazenado no LocalStorage;</li>
 <li>Navegador da internet: Chrome, Firefox ou Edge.</li>
 </ul>
 
@@ -20,27 +20,25 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-01: Verificar o funcionamento dos links da página Home</td>
+  <td>CT-01: Verificar login dos usuários e vínculo com a página inicial</td>
   <td>
    <ul>
    
-   <li>RF-05: A aplicação deve permitir ao aluno acesso somente leitura de notas, datas de eventos e observações do professor com login.</li>
-    <li>RF-07:	A aplicação deve permitir ao responsável enviar recados e justificativas de ausência ao acessar com login e senha.</li>
-    <li>RF-11: A aplicação deve permitir ao responsável acesso somente leitura de notas, eventos, observações e avisos com login e senha.</li>
+   <li>RF-04: A aplicação deve permitir ao professor(a) e aos responsáveis acessar com login com usuário e senha.</li>
+    <li>RF-05: A aplicação deve permitir ao aluno acesso somente leitura de notas, datas de eventos e observações do professor com login.</li>
    </ul>
   </td>
-  <td>Verificar se os links da página Home do usuário específico estão encaminhando para as respectivas páginas corretamente</td>
+  <td>Verificar se a página de login efetua o login com sucesso e vincula à página inicial dos respectivos usuários.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Visualizar a página de Cadastro.</li>
-    <li>Entrar com login e senha do usuário.</li>
-    <li>Clicar nos links da página Home. </li>
+    <li>Informar as credenciais de acesso.</li>
+    <li>Clicar no botão Entrar.</li>
    </ol>
    </td>
-  <td>Todos os links da página Home devem encaminhar o usuário específico para as páginas descritas.</td>
-  <td>#</td>
+  <td>O clique no botão com as credenciais corretas inseridas deve efetuar o login do usuário.</td>
+  <td>Juliane</td>
  </tr>
 </table>
 
@@ -69,7 +67,6 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Visualizar a página de Cadastro.</li>
     <li>Entrar com login e senha do usuário (Professor).</li>
     <li> Clicar na aba de Frequência da página home.  </li>
     <li> Marcar presença ou falta do aluno. </li>
@@ -103,25 +100,49 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    <ol>
     <li>Acessar o navegador.</li>
     <li>Informar o endereço do site.</li>
-    <li>Visualizar a página de Cadastro.</li>
     <li>Entrar com login e senha do usuário (Secretário).</li>
     <li> Clicar na aba de Datas e Eventos da página home.  </li>
     <li> Adicionar evento. </li>
    </ol>
    </td>
-  <td> Ao clicar no icone adicionar, abre uma tela para selecionar a data e um campo para inserir o evento. </td>
+  <td> Ao clicar no ícone adicionar, abre uma tela para selecionar a data e um campo para inserir o evento. </td>
   <td> Suzany </td>
  </tr>
 </table>
 
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
+<tr>
+  <td>CT-05: Permitir o envio da observação, para um dos alunos cadastrados.</td>
+  <td>
+   <ul>
+   
+   <li>RF-03: A aplicação deve permitir ao professor(a) registrar e enviar observações sobre os alunos aos responsáveis.</li>
+   
+   </ul>
+  </td>
+  <td>Verificar se as observações estão sendo registradas. </td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Entrar com login e senha do usuário (Professor).</li>
+    <li>Clicar na aba Observações da página home.</li>
+    <li>Preencher a matricula do aluno.</li>
+     <li>Preencher os campos da observação.</li>
+    <li>Enviar a observação.</li>
+   </ol>
+   </td>
+  <td> Observações registradas para o aluno cadastrado.</td>
+  <td> Juan </td>
+ </tr>
+</table>
 
 
-
-
- 
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
