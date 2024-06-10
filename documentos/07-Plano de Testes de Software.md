@@ -90,7 +90,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
 <tr>
-  <td>CT-03: Verificar a página de datas e eventos do secretário</td>
+  <td>CT-04: Verificar a página de datas e eventos do secretário</td>
   <td>
    <ul>
    
