@@ -19,7 +19,6 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
  
 </li>
 
-<ol>
   <li> <b>CT-02: Verificar o funcionamento dos links da página Home.</b>
     
   Responsável: Juan
@@ -30,16 +29,50 @@ Professor
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/e6b92463-368f-4e0d-8d09-3e8ef025a97b
 
 
-Secretario
+Secretário
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/acd88d78-e07c-4db4-965a-5fdb73df759c
 
 
+ <li><b>CT-03: Verificar o cadastro de usuários.</b>
+
+  Responsável: Juliane
+  
+ <p>Verificação do cadastro de usuários.</p>  
+ 
+<p>Professor</p>
+
+![cadastroProfessorFeito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/1e0d2b6a-077d-47fb-a1ed-005885f8a4a5)
+
+<p>Responsável</p>
+
+![cadastroResponsavelFeito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/f679ef40-a073-4afb-819c-01134ebcd93e)
+
+
+<p>Aluno</p>
+
+![cadastroAlunoFeito](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/bfb0a625-c2a5-40d3-80fb-f152f9d48c37)
+
+<p>Informações armazenadas no LocalStorage após cadastro.</p>
+
+<p>Professor</p>
+
+![cadastroProfessorLocalStorage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/9b52ba7d-dd79-4c03-8b87-aa5c9079b525)
+
+<p>Responsável</p>
+
+![cadastroResponsavelLocalStorage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/15774823-2222-4a94-9672-371e68bbbfca)
+
+<p>Aluno</p> 
+
+![cadastroAlunoLocalStorage](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165741792/1691448c-18c5-402c-b5f4-19a6a7a85f29)
+
+  </li>
 
      
   </li>
 
-  <li><b>CT-03: Verificar a página de frequência do Professor</b>
+  <li><b>CT-04: Verificar a página de frequência do Professor.</b>
 
   Responsável: Igor
   
@@ -50,7 +83,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
 
  
   </li>
-  <li><b>CT-04: Verificar lançamento de notas do Professor</b>
+  <li><b>CT-05: Verificar lançamento de notas do Professor</b>
 
   Responsável: Luan
   
@@ -63,10 +96,9 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
   ![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/62348524/9fc8eb8a-7545-4f9c-a97e-9862c09862e1)
 
   </li>
-</ol>
 
 <li>
-  <b>CT-05: Verificar a página de datas e eventos do secretário</b>
+  <b>CT-06: Verificar a página de datas e eventos do secretário.</b>
  
   Responsável: Suzany
 <p> Usuário(secretário) adiciona data e evento.</p>
@@ -81,7 +113,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-
   ![image](https://raw.githubusercontent.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/main/documentos/img/Edusync/DatasEventos2.png)
 </li>
 
-<li><b>CT-06: Verificar a observações do professor</b>
+<li><b>CT-07: Verificar a observações do professor</b>
  
   Responsável: Juan
 
