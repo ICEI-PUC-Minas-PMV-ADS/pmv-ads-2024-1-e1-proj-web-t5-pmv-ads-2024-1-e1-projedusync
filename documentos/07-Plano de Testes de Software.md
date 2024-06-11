@@ -20,7 +20,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
  </tr>
 
  <tr>
-  <td>CT-01: Verificar login dos usuários e vínculo com a página inicial</td>
+  <td>CT-01: Verificar login dos usuários e vínculo com a página inicial.</td>
   <td>
    <ul>
    
@@ -85,9 +85,46 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Critérios de êxito</th>
   <th>Responsável</th>
  </tr>
+
+ <tr>
+  <td>CT-03: Verificar o cadastro de usuários.</td>
+  <td>
+   <ul>
+   
+   <li>RF-06: A aplicação deve possibilitar ao secretário(a) escolar criar o perfil de aluno(a), professor(a) e responsável.</li>
+    <li>RF-12: A aplicação deve possibilitar ao secretário adicionar e vincular o perfil de aluno(s) e responsável.</li>
+   </ul>
+  </td>
+  <td>Verificar se os usuários estão sendo cadastrados no perfil do secretário.</td>
+  <td>
+   <ol>
+    <li>Acessar o navegador.</li>
+    <li>Informar o endereço do site.</li>
+    <li>Informar as credenciais de acesso.</li>
+    <li>Clicar no botão Entrar.</li>
+    <li>Na páginal inicial, passar o mouse em Cadastro.</li>
+    <li>Selecionar o perfil de usuário desejado.</li>
+    <li>Inserir as informações.</li>
+    <li>Clicar em Cadastrar.</li>
+   </ol>
+   </td>
+  <td>As informações referentes aos usuários devem ser armazenadas no local storage.</td>
+  <td>Juliane</td>
+ </tr>
+</table>
+
+<table>
+ <tr>
+  <th>Caso de teste</th>
+  <th>Requisitos associados</th>
+  <th>Objetivo do teste</th>
+  <th>Passos</th>
+  <th>Critérios de êxito</th>
+  <th>Responsável</th>
+ </tr>
  
  <tr>
-  <td>CT-03: Verificar a página de frequência do Professor</td>
+  <td>CT-04: Verificar a página de frequência do Professor.</td>
   <td>
    <ul>
    
@@ -123,7 +160,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
 
 
 <tr>
-  <td>CT-04: Verificar lançamento de notas do Professor</td>
+  <td>CT-05: Verificar lançamento de notas do Professor.</td>
   <td>
    <ul>
    
@@ -155,7 +192,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
 <tr>
-  <td>CT-05: Verificar a página de datas e eventos do secretário</td>
+  <td>CT-06: Verificar a página de datas e eventos do secretário.</td>
   <td>
    <ul>
    
@@ -188,7 +225,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
   <th>Responsável</th>
  </tr>
 <tr>
-  <td>CT-06: Permitir o envio da observação, para um dos alunos cadastrados.</td>
+  <td>CT-07: Verificar se as observações estão sendo registradas.</td>
   <td>
    <ul>
    
@@ -196,7 +233,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir.
    
    </ul>
   </td>
-  <td>Verificar se as observações estão sendo registradas. </td>
+  <td> Permitir o envio da observação, para um dos alunos cadastrados.</td>
   <td>
    <ol>
     <li>Acessar o navegador.</li>
