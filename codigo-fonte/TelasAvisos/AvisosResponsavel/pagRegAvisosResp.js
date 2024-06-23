@@ -11,6 +11,9 @@ function enviarAvisos() {
     
     console.log(dadosAvisos);
     adicionarAviso(dadosAvisos);
+
+    alert("Aviso enviado com sucesso.");
+    window.location.href = '../TelaRegistroAvisos/TelaRegistroAvisos.html'
 }
 
 function preencherListaAlunos() {
@@ -24,6 +27,10 @@ function preencherListaAlunos() {
         opt.innerHTML = element;
         select.appendChild(opt);
     });
+}
+
+function sair() {
+    window.location.href = '../TelaRegistroAvisos/TelaRegistroAvisos.html'
 }
 
 

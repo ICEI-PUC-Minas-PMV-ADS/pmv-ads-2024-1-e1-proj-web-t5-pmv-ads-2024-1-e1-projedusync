@@ -19,6 +19,7 @@ header {
 body {
   overflow: auto;
   overflow-x: hidden;
+  height: 100vh;
 }
  
 .nav-bar {
@@ -291,4 +292,6 @@ footer {
   width: 100%;
   background-color: #004651;
   color: #F4F4F4;
+  position: fixed;
+  bottom: 0;
 }

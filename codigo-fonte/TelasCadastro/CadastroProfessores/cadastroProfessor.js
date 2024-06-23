@@ -34,6 +34,7 @@ function cadastrar(event) {
     localStorage.setItem('listaDeUsuarios', JSON.stringify(listaDeUsuarios));
 
    alert('Professor(a) registrado(a) com sucesso!');
+   window.location.href = '../../TelaInicial/TelaInicialProfessor/TelaInicialProfessor.html';
 }
 
 function iniciarBancoDeDados() { 

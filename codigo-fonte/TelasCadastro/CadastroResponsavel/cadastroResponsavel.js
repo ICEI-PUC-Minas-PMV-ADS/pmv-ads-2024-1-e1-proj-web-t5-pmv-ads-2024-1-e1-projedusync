@@ -46,6 +46,7 @@ function cadastrar(event) {
     localStorage.setItem('listaDeUsuarios', JSON.stringify(listaDeUsuarios));
 
    alert('Responsável registrado com sucesso!');
+   window.location.href = '../../TelaInicial/TelaInicialRespon/TelaInicialResponsa.html';
 }
 
 function adicionarAluno() {

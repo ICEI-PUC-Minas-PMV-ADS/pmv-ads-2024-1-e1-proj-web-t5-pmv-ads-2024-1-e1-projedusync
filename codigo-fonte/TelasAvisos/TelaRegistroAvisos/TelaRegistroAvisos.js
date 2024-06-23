@@ -42,11 +42,13 @@ function ajustarTamanhoLinha() {
 function hovear(element) {
     let classes = [...element.classList];
 
-    if (classes.some(x => x === 'col1')){
+    if (classes.some(x => x === 'col1')) {
+        if (!!!element.id) return;
         element.style.backgroundColor = '#eff0f1';
         element.addEventListener('mouseout', desHovear);
-    }
+        abaSelecionada.style.backgroundColor = '#eff0f1';
 
+    }
     else {
         if (!!element.parentNode.children[4].value) {
             element.parentNode.style.backgroundColor = '#eff0f1';
@@ -59,7 +61,11 @@ function hovear(element) {
 function desHovear(element) {
     let classes = [...element.target.classList]
     if (classes.some(x => x === 'col1')){
-        element.target.style.backgroundColor = 'white';
+        let nomeAbaSelecionada = document.getElementById("aba").value;
+        let abaSelecionada = document.getElementById(nomeAbaSelecionada);
+
+        if (element.target.id != abaSelecionada.id)
+            element.target.style.backgroundColor = 'white';
     }
     else {
         element.target.parentNode.style.backgroundColor = 'white';
@@ -67,6 +73,8 @@ function desHovear(element) {
 }
 
 function montarLayout() {
+    limparGrid();
+
     let aba = document.getElementById('aba').value;
     let listaDeAvisos = JSON.parse(localStorage.getItem('listaDeAvisos'));
 
@@ -160,6 +168,24 @@ function renderizarLinha(aviso) {
     contDiv.appendChild(container);
 }
 
+function limparGrid() {
+    let contDivChildren = [...document.getElementsByClassName('cont')[0].children];
+
+    for (let index = 0; index < 3; index++) {
+        let element = contDivChildren[index + 1];
+
+        element.children[1].innerHTML = '';
+        element.children[2].innerHTML = '';
+        element.children[3].innerHTML = '';
+        element.children[4].value = '';
+    }
+
+    contDivChildren.splice(0, 4);
+    let extraRows = contDivChildren;
+
+    extraRows.forEach(x => x.remove());
+}
+
 function abrirModalAviso(element) {
     let modal = document.getElementById("myModal");
     let modalHeader = document.getElementById("modal-header");
@@ -199,6 +225,15 @@ function excluirAviso() {
 }
 
 function marcarAba() {
+    let abaRecebidos = document.getElementById('recebidos');
+    let abaEnviados = document.getElementById('enviados');
+    let abaLixeira = document.getElementById('lixeira');
+
+    abaRecebidos.style.backgroundColor = 'white';
+    abaEnviados.style.backgroundColor = 'white';
+    abaLixeira.style.backgroundColor = 'white';
+
+
     let nomeAbaSelecionada = document.getElementById("aba").value;
 
     let abaSelecionada = document.getElementById(nomeAbaSelecionada);
@@ -214,4 +249,13 @@ function selecionarAba(element) {
 
     marcarAba();
 
+}
+
+function direcionarCriacao() {
+    let user = obterUsuarioLogado();
+
+    if (user.credencial === 'responsavel')
+        window.location.href = '../AvisosResponsavel/pagRegAvisosResp.html';
+    else if (user.credencial === 'secretario')
+        window.location.href = '../AvisosSecretario/pagRegAvisosSec.html';
 }
