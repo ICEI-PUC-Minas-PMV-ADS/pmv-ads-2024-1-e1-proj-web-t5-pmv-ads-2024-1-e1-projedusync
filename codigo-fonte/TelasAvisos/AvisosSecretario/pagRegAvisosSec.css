@@ -17,7 +17,8 @@ header {
 }
  
 body {
-  overflow: hidden;
+  overflow: auto;
+  overflow-x: hidden;
 }
  
 .nav-bar {
@@ -72,6 +73,7 @@ main h1 {
  
 main {
   text-align: center;
+  margin-bottom: 15px;
 }
  
 select {
@@ -179,8 +181,6 @@ footer {
   text-align: center;
   padding: 5px;
   width: 100%;
-  bottom: 0;
-  position: absolute;
   background-color: #004651;
   color: #F4F4F4;
 }
