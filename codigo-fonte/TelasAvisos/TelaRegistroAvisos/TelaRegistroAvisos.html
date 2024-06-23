@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TelaRegistroAvisos.css">
+    <title>Avisos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync</h1>
+            </div>
+
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                </ul>
+
+            </div>
+            <div id="divPesquisa">
+                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+                <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Avisos</h1>
+        <div class="cont">
+            <div class="row">
+                <div class="col1"></div>
+                <div class="col2">Aluno</div>
+                <div class="col3">Data</div>
+                <div class="col4">
+                    <div class="col4-text">Avisos</div>
+                    <div class="col4-img"><img class="btnAdd" src="iconadd.png" alt="Botão Adicionar"></div>
+                </div>
+            </div>
+            <div class="row">
+                <div id="recebidos" class="col1" onmouseover="hovear(this)" onclick="selecionarAba(this)">Recebidos</div>
+                <div class="col2" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col3" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col4" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <input type="hidden">
+            </div>
+            <div class="row">
+                <div id="enviados" class="col1" onmouseover="hovear(this)" onclick="selecionarAba(this)">Enviados</div>
+                <div class="col2" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col3" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col4" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <input type="hidden">
+            </div>
+            <div class="row">
+                <div id="lixeira" class="col1" onmouseover="hovear(this)" onclick="selecionarAba(this)">Lixeira</div>
+                <div class="col2" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col3" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <div class="col4" onmouseover="hovear(this)" onclick="abrirModalAviso(this)"></div>
+                <input type="hidden">
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="iconEduSync.png" width="30" height="25">
+        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
+        </p>
+    </footer>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="fecharModal()">&times;</span>
+          <span class="delete" onclick="excluirAviso()">Excluir</span>
+          <div class="modal-b">
+            <h3 id="modal-header"></h2>
+            <p id="modal-body"></p>
+          </div>
+        </div>
+        <input id="aviso-aberto" type="hidden">
+    </div>
+<input id="aba" type="hidden" value="recebidos">
+</body>
+</html>
+
+<script src="..\..\main.js"></script>
+<script src="TelaRegistroAvisos.js"></script>

@@ -2,9 +2,9 @@ function enviarAviso() {
     
     var dadosAvisos = {};
 
-    dadosAvisos.menuAnoLetivo = document.getElementById('menuAnoLetivo').value;  
-    dadosAvisos.menuTurno = document.getElementById('menuTurno').value;
-    dadosAvisos.menuTurma = document.getElementById('menuTurma').value;
+    dadosAvisos.anoLetivo = document.getElementById('menuAnoLetivo').value;  
+    dadosAvisos.turno = document.getElementById('menuTurno').value;
+    dadosAvisos.turma = document.getElementById('menuTurma').value;
     dadosAvisos.pesquisarAluno = document.getElementById('pesquisarAluno').value;
     dadosAvisos.tituloAviso = document.getElementById('tituloAviso').value;
     dadosAvisos.campoAviso = document.getElementById('campoAviso').value;
