@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title: EduSync
+authors:
+  - family-names: Yuri Coelho Soares Silva
+    given-names: Igor
+  - family-names: Duarte Guerra
+    given-names: Juliane
+  - family-names: Marinheiro dos Santos Henschke
+    given-names: Luan
+  - family-names: Espim de Oliveira Napolitano
+    given-names: Suzany
+  - family-names: Phablo Vieira dos Santos
+    given-names: Juan
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Rodrigo Costa
+    given-names: Marco
+keywords:
+  - Gestão
+  - Escolar
+  - Fundamental
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync
+version: 1.0.0
+date-released: 2023-10-31
