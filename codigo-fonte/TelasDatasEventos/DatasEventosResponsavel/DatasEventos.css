@@ -1,4 +1,4 @@
-   /*Verde claro: #A4E473
+  /*Verde claro: #A4E473
 Verde médio: #00A181
 Verde escuro:#004651
 "Branco": #F4F4F4
@@ -127,19 +127,25 @@ padding: 0.75rem;
 font-weight: 400;
 }
 
-
+th.col2 {
+  padding-left: 10px
+}
 .col2 {
 padding-left: 80px;
 }
 
 td {
-text-align: left;
+text-align: left ;
 color: #555;
 font-weight: 100;
 vertical-align: middle;
-padding: 0.75rem;
+padding: 10px;
 border-top: 1px solid #DEE2E6;
 width: 100%;
+}
+
+td.col2{
+  padding-left: 10px
 }
 
 table #col_sel, table .selecao {
