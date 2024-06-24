@@ -10,7 +10,7 @@ document.querySelector('.sair').addEventListener('click', function () {
     var confirmLogout = confirm("Tem certeza que deseja sair?");
     if (confirmLogout) {
         localStorage.removeItem('usuarioLogado');
-        window.location.href = "/codigo-fonte/TelaLogin/paginaLogin.html";
+        window.location.href = "../../TelaLogin/index.html";
     } else {
         alert("Saída cancelada.");
     }
