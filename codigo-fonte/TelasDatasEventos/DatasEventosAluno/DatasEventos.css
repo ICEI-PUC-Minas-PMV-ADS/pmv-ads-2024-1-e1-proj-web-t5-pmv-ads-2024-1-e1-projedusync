@@ -1,245 +1,147 @@
+   /*Verde claro: #A4E473
+Verde médio: #00A181
+Verde escuro:#004651
+"Branco": #F4F4F4
+Preto: #000000
+Amarelo: #F2EF12
+*/
+   
 * {
-    padding:0;
-    margin: 0;
-    font-family: "Lato", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-   }
+  padding:0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+ }
 
-   #logoEduSync {
-    padding-right: 5px;
-  }
+ #logoEduSync {
 
-   header {
-    background-color: white;
-    box-shadow: 0px 3px  10px; color: #004651;
-  }
+  padding-right: 5px;
+}
 
-  .nav-bar {
-    display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 6rem;
-  }
+ header {
+  background-color: white;
+  box-shadow: 0px 3px  10px; color: #004651;
+}
 
-  .logo {
-    font-family: "Fira Sans", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    display: flex;
-    align-items: center;
-  }
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem 6rem;
+}
 
-  .nav-list ul{
-    display: flex;
-    justify-content: center;
-    list-style: none;
-  }
+.logo {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+}
 
-  .nav-item {
-    margin: 0 15px;
+.nav-list ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
 
-  }
+.nav-item {
+  margin: 0 15px;
 
-  .nav-link {
-    text-decoration: none;
-    font-size: 1.15rem;
-    color: #47525E;
-    font-weight: 400;
-  }
+}
 
-  .input {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    display: flex;
-  }
+.nav-link {
+  text-decoration: none;
+  font-size: 1.15rem;
+  color: #47525E;
+  font-weight: 400;
+}
 
-  #btnPesquisa {
-    border:none;
-    float:right;
-    height:20px;
-  }
+.input {
+  border: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  display: flex;
+}
 
-  #linha {
-    width: 50%;
-    border-bottom: 1px solid #000000;
-    padding: 40px;
-  }
-  
-  main h1 {
-    padding: 40px ;
-  }
-  
-  h2 {
-   padding: 20px;
-  }
-  
-  p {
-    margin: 20px;
-    font-weight: 400;
-    font-size: 20px;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 5px;
-    width: 100%;
-    bottom: 0%;
-    position: absolute;
-    background-color: #004651;
-    color: white;
-    text-align: center;                                                 
-  } 
+#btnPesquisa {
+  border:none;
+  float:right;
+  height:20px;
+}
 
-  body {
-    overflow: hidden;
-  }
 
-  .calendar-complete {
-    display: flex;
-    align-items:center;
-    justify-content: right;
-    position: relative;
-    bottom: 320px;
-    right: 100px;
-    float: right;
-  }
-  
-  .calendar-container {
-    position:relative;
-    background: #fff;
-    width: 600px;
-    border-radius: 10px;
-    box-shadow: 0 40px 40px rgba(0, 0, 0, 0.12);
-     
-  }
-  
-  
-  .calendar-container header {
-    display: flex;
-    align-items:center;
-    padding: 35px 30px 10px;
-    justify-content: space-between;
-  }
-  
-  header .calendar-navigation {
-    display: flex;
-  }
-  
-  header .calendar-navigation  {
-    height: 38px;
-    width: 15px;
-    margin: 0 1px;
-    cursor: pointer;
-    text-align: center;
-    line-height: 20px;
-    border-radius: 50%;
-    user-select:none;
-    color: #aeabab;
-    font-size: 1.9rem;
-  }
-  
-  #calendar-prev{
-    position: relative;
-    bottom: 5px;
-    right: 50px;
-    }
-    
-    img#calendar-prev{
-      width: 50px;
-    }
-    
-    #calendar-next{
-      position: relative;
-      bottom: 5px;
-      right: 40px;
-      }
-      
-      img#calendar-next{
-        width: 50px;
-      }
-    
-    .calendar-navigation span:last-child {
-      margin-right: -10px;
-      width: 10px;
-      height: 30px;
-    }
-    .calendar-navigation span:first-child {
-      margin-right: 10px;
-      width: 10px;
-      height: 30px;
-    
-    }
-  
-  header .calendar-navigation span:hover {
-    background: #f2f2f2;
-  }
-  
-  header .calendar-current-date {
-    font-weight: 500;
-    font-size: 1.45rem;
-  }
-  
-  .calendar-body {
-    padding: 20px;
-  }
-  
-  .calendar-body ul {
-    list-style: none;
-    flex-wrap: wrap;
-    display: flex;
-    text-align: center;
-    margin-top: 0;
-  }
-  
-  .calendar-body .calendar-dates {
-    margin-bottom: 100px;
-    margin-top: 0%;
-  }
-  
-  .calendar-body li {
-    width: calc(100% / 7);
-    font-size: 1.07rem;
-    color: #414141;
-    
-  }
-  
-  .calendar-body .calendar-weekdays li {
-    cursor: default;
-    font-weight: 500;
-  }
-  
-  .calendar-body .calendar-dates li {
-    margin-top: 30px;
-    position: relative;
-    z-index: 1;
-    cursor: pointer;
-  }
-  
-  .calendar-dates li.inactive {
-    color: #aaa;
-  }
-  
-  .calendar-dates li.active {
-    color: #fff;
-  }
-  
-  .calendar-dates li::before {
-    position: absolute;
-    content: "";
-    z-index: -1;
-    top: 50%;
-    left: 50%;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    transform: translate(-50%, -50%);
-  }
-  
-  .calendar-dates li.active::before {
-    background: #00A181;
-  }
-  
-  .calendar-dates li:not(.active):hover::before {
-    background: #e4e1e1;
-  }
+main h1 {
+  padding: 40px ;
+}
+
+h2 {
+ padding: 20px;
+}
+
+p {
+  margin: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+
+footer {
+text-align: center;
+padding: 5px;
+width: 100%;
+bottom: 0;
+position: absolute;
+background-color: #004651;
+color: white;
+text-align: center;                                                 
+}   
+
+body {
+overflow: hidden;
+}
+
+
+h1 {
+font-weight: bold;
+font-size: 2.5rem;
+line-height: 1.2;
+margin-bottom: 3rem;
+}
+
+table {
+width: 100%;
+font-family: "Roboto", "Arial", sans-serif;
+color: #212529;
+border-collapse: collapse;
+margin-bottom: 1rem;
+}
+
+thead, tbody, tfoot {
+vertical-align: middle;
+}
+
+th {
+text-align: left;
+vertical-align: bottom;
+padding: 0.75rem;
+font-weight: 400;
+}
+
+
+.col2 {
+padding-left: 80px;
+}
+
+td {
+text-align: left;
+color: #555;
+font-weight: 100;
+vertical-align: middle;
+padding: 0.75rem;
+border-top: 1px solid #DEE2E6;
+width: 100%;
+}
+
+table #col_sel, table .selecao {
+width: 1.5rem;
+}

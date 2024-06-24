@@ -1,32 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="DatasEventos.css">
+    <script defer src="./crud-evento.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="DatasEventos.js"></script>
     <title>Datas e Eventos</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar"> 
+        <nav class="nav-bar">
             <div class="logo">
                 <h1><img src="iconEduSync.png" alt="logo Edusync" width="30" height="25" id="logoEduSync">EduSync</h1>
             </div>
 
             <div class="nav-list">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Observacaos</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Avisos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Datas e Eventos</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Observações</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>                                                                                                           
-                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>                                                                    
-                </ul>                                                                                                                        
-
+                    <li class="nav-item"><a href="#" class="nav-link">Frequência</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Notas</a></li>
+                </ul>
             </div>
             <div id="divPesquisa">
-                <input type="text" id="textpesquisa" placeholder="Pesquisa"/>
-                <img src="search3.png" id="btnPesquisa" alt="Pesquisa"/>                                                                                                                                                                                     
+                <input type="text" id="textpesquisa" placeholder="Pesquisa" />
+                <img src="search3.png" id="btnPesquisa" alt="Pesquisa" />
             </div>
         </nav>
     </header>
@@ -34,58 +37,29 @@
     <main>
         <h1>Datas e Eventos</h1>
 
-        <div id="linha"> 
-
-        </div>
-
-
-        <h2>23/12</h2>
-
-        <p>Fim do ano letivo</p>
-
-        <div id="linha">  </div>
-    
-        <div class="calendar-complete">
-            <div class="calendar-container" id="calendario">
-                <header class="calendar-header">
-                    <p class="calendar-current-date"></p>
-                    <div class="calendar-navigation">
-    
-                        <span id="calendar-prev">
-                            <img src="setaEsquerda.png" id="calendar-prev" class="material-symbols-rounded">
-                        </span>
-                        <span id="calendar-next">
-                            <img src="setaDireita.png" id="calendar-next" class="material-symbols-rounded">
-                        </span>
-                    </div>
-                </header>
-            
-    
-                <div class="calendar-body">
-                    <ul class="calendar-weekdays">
-                        <li>Dom</li>
-                        <li>Seg</li>
-                        <li>Ter</li>
-                        <li>Qua</li>
-                        <li>Qui</li>
-                        <li>Sex</li>
-                        <li>Sab</li>
-                    </ul>
-                    <ul class="calendar-dates"></ul>
-                </div>
-            </div>
-        </div>
-
+        <table>
+            <thead>
+                <tr>
+                 <th class="selecao"></th>
+                 <th id="th1" class="col1">Descrição</th>
+                 <th id="th2" class="col2">Data</th>
+                </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+        
+     </table>
+      <p1> Festa Junina              </p2> 
         </main>
 
-        <script src="DatasEventos.js"></script>
-</body>
+    </div>
+</div>
 
-    <footer>
-        <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
-        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.
-        </p>
-    </footer>
+        <footer>
+            <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
+            <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.</p>
+        </footer>
 
+    
+    </body>
 
-</html>
+    </html>

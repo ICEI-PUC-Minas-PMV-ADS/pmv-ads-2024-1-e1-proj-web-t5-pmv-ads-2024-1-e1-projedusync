@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="DatasEventos.css">
+    <script defer src="./crud-evento.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script defer src="DatasEventos.js"></script>
     <title>Datas e Eventos</title>
 </head>
@@ -35,100 +37,60 @@
     <main>
         <h1>Datas e Eventos</h1>
 
-        <div id="linha">
-            <img class="AddEvento" src="iconadd.png" id="btnAdicionar" alt="Adicionar"> 
-            <img clas="editEvento" src="iconeditar.png" id="btnEditar" alt="Editar"> 
+        <table>
+            <thead>
+                <tr>
+                 <th class="selecao"></th>
+                 <th id="th1" class="col1">Descrição</th>
+                 <th id="th2" class="col2">Data</th>
+                </tr>
+        </thead>
+        <tbody id="corpoTabela"></tbody>
+        <tfoot>
+        <tr>
+          <td colspan="4">
+            <button id="btAdicionar" class="botao">Adicionar</button>
+            <button id="btEditar" class="botao">Editar</button>
+            <button id="btExcluir" class="botao">Excluir</button>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <div id="modalEventos" class="modal">
+        <div class="corpoModal">
+          <header>
+            <span id="fechaModal">&times;</span>
+            <h3>EVENTO</h3>
+          </header>
+          <p>
+            <label for="campoDescricao">Descrição: </label>
+            <input type="text" id="campoDescricao" />
+            <input type="hidden" id="campoID" />
+          </p>
+          <p>
+            <label for="campoData">Data: </label>
+            <input type="date" id="campoData" />
+          </p>
+          <p>
+            <button id="btMTCriar">Criar</button>
+            <button id="btMTAlterar">Alterar</button>
+            <button id="btMTExcluir">Excluir</button>
+            <button id="btMTCancelar">Cancelar</button>
+          </p>
+
         </div>
+        </main>
 
-        <h2>09/06</h2>
-
-        <p>Festa Junina - Local: ASCAR Horário: 16:00 </p>
-
-        <div id="linha">
-        </div>
-
-     <div class="calendar-complete">
-        <div class="calendar-container" id="calendario">
-            <header class="calendar-header">
-                <p class="calendar-current-date"></p>
-                <div class="calendar-navigation">
-
-                <div id="eventos">
-                    <div class="evento" data-id="123">
-                        <h2>23/12</h2>
-                        <p>Fim do ano letivo</p>
-                        <button class="edit-btn">Editar</button>
-                        <button class="delete-btn">Apagar</button>
-                    </div>
-                </div>
-            </div>
-
-            <div class="calendar-complete">
-                <div class="calendar-container" id="calendario">
-                    <header class="calendar-header">
-                        <p class="calendar-current-date"></p>
-                        <div class="calendar-navigation">
-                            <span id="calendar-prev">
-                                <img src="setaEsquerda.png" id="calendar-prev" class="material-symbols-rounded">
-                            </span>
-                            <span id="calendar-next">
-                                <img src="setaDireita.png" id="calendar-next" class="material-symbols-rounded">
-                            </span>
-                        </div>
-                    </header>
-                    <div class="calendar-body">
-                        <ul class="calendar-weekdays">
-                            <li>Dom</li>
-                            <li>Seg</li>
-                            <li>Ter</li>
-                            <li>Qua</li>
-                            <li>Qui</li>
-                            <li>Sex</li>
-                            <li>Sab</li>
-                        </ul>
-                        <ul class="calendar-dates"></ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
-
-    <!-- Modal para adicionar eventos -->
-    <div id="modal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Adicionar Evento</h2>
-            <form id="eventForm">
-                <label for="eventDate">Data:</label>
-                <input type="date" id="eventDate" name="eventDate" required>
-                <label for="eventDescription">Descrição:</label>
-                <input type="text" id="eventDescription" name="eventDescription" required>
-                <button type="submit">Adicionar</button>
-            </form>
-        </div>
     </div>
+</div>
 
-    <!-- Modal para editar eventos -->
-    <div id="editModal" class="modal">
-        <div class="modal-content">
-            <span class="close">&times;</span>
-            <h2>Editar Evento</h2>
-            <form id="editForm">
-                <label for="editEventDate">Data:</label>
-                <input type="date" id="editEventDate" name="editEventDate" required>
-                <label for="editEventDescription">Descrição:</label>
-                <input type="text" id="editEventDescription" name="editEventDescription" required>
-                <button type="submit">Salvar</button>
-            </form>
-        </div>
-    </div>
+        <footer>
+            <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
+            <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.</p>
+        </footer>
 
-    <footer>
-        <img src="iconEduSync.png" alt="logo EduSync" width="30" height="25">
-        <p>Copyright &#169 2024 EduSync - Sistema Auxiliar Educacional | Todos os direitos reservados.</p>
-    </footer>
+    
+    </body>
 
-   
-</body>
-
-</html>
+    </html>

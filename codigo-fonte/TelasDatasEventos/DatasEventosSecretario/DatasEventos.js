@@ -1,96 +1,182 @@
-let date = new Date(); // creates a new date object with the current date and time
-let year = date.getFullYear(); // gets the current year
-let month = date.getMonth(); // gets the current month (index based, 0-11)
 
-const day = document.querySelector(".calendar-dates"); // selects the element with class "calendar-dates"
-const currdate = document.querySelector(".calendar-current-date"); // selects the element with class "calendar-current-date"
-const prenexIcons = document.querySelectorAll(".calendar-navigation span"); // selects all elements with class "calendar-navigation span"
+  // Desenha a tabela com os dados armazenados no localStorage
+  function mostraTabela() {
+    // carrega dados
+    let listaDeTarefas = readTarefas();
+    let dados = listaDeTarefas
 
-const months = [
-    "Janeiro",
-    "Fevereiro",
-    "Março",
-    "Abril",
-    "Maio",
-    "Junho",
-    "Julho",
-    "Agosto",
-    "Setembro",
-    "Outubro",
-    "Novembro",
-    "Dezembro"]; // array of month names
-
-// function to generate the calendar
-const manipulate = () => {
-    // get the first day of the month
-    let dayone = new Date(year, month, 1).getDay();
-
-    // get the last date of the month
-    let lastdate = new Date(year, month + 1, 0).getDate();
-
-    // get the day of the last date of the month
-    let dayend = new Date(year, month, lastdate).getDay();
-
-    // get the last date of the previous month
-    let monthlastdate = new Date(year, month, 0).getDate();
-
-    let lit = ""; // variable to store the generated calendar HTML
-
-    // loop to add the last dates of the previous month
-    for (let i = dayone; i > 0; i--) {
-        lit += `<li class="inactive">${monthlastdate - i + 1}</li>`;
-    }
-
-    // loop to add the dates of the current month
-    for (let i = 1; i <= lastdate; i++) {
-        // check if the current date is today
-        let isToday = i === date.getDate() && month === new Date().getMonth() && year === new Date().getFullYear() ? "active" : "";
-        lit += `<li class="${isToday}">${i}</li>`;
-    }
-
-    // loop to add the first dates of the next month
-    for (let i = dayend; i < 6; i++) {
-        lit += `<li class="inactive">${i - dayend + 1}</li>`
-    }
-
-    // update the text of the current date element with the formatted current month and year
-    currdate.innerText = `${months[month]} ${year}`;
-
-    // update the HTML of the dates element with the generated calendar
-    day.innerHTML = lit;
-}
-
-manipulate();
-
-// Attach a click event listener to each icon
-prenexIcons.forEach(icon => {
-
-    // When an icon is clicked
-    icon.addEventListener("click", () => {
-        // Check if the icon is "calendar-prev" or "calendar-next"
-        month = icon.id === "calendar-prev" ? month - 1 : month + 1;
-
-        // Check if the month is out of range
-        if (month < 0 || month > 11) {
-            // Set the date to the first day of the month with the new year
-            date = new Date(year, month, new Date().getDate());
-            // Set the year to the new year
-            year = date.getFullYear();
-            // Set the month to the new month
-            month = date.getMonth();
-        }
-
-        else {
-            // Set the date to the current date
-            date = new Date();
-        }
-
-        // Call the manipulate function to update the calendar display
-        manipulate();
+    // gera conteúdo da tabela
+    let conteudo = "";
+    dados.forEach((item) => {
+      conteudo += `
+        <tr id='linha-${item.id}'>
+          <td class='selecao'>
+            <input type="radio" name="campoSelecao" value="${item.id}" />
+          </td>
+          <td class="celula-1">
+            ${item.descricao}
+          </td>
+          <td class="celula-2"> 
+            ${formataData(item.data)}
+          </td>
+          <td></td>
+        </tr>
+      `;
     });
-});
-    
- 
+    corpoTabela.innerHTML = conteudo;
+  
+    // determina comportamento dos botões e outros componentes interativos
+    let botoesSelecao = document.querySelectorAll("input[name=campoSelecao]");
+    botoesSelecao.forEach((b) => {
+      b.onclick = function (e) {
+        btEditar.disabled = false;
+        btExcluir.disabled = false;
+      };
+    });
+    btAdicionar.disabled = false;
+    btEditar.disabled = true;
+    btExcluir.disabled = true;
+};
+
+// Mostra a janela modal para criação de nova tarefa
+    btAdicionar.onclick = function () {
+    campoDescricao.value = "";
+    campoData.value = "";
+    campoDescricao.disabled = false;
+    campoData.disabled = false;
+    modalEventos.style.display = "block";
+    btMTCriar.style.display = "inline-block";
+    btMTAlterar.style.display = "none";
+    btMTExcluir.style.display = "none";
+    btMTCriar.disabled = true;
+    campoDescricao.focus();
+  };
+  
+  // Verifica se os três campos estão preenchidos antes de criar ou alterar tarefa
+  let liberaBotaoMT = function () {
+    if (
+      campoDescricao.value.length > 0 &&
+      campoData.value.length > 0 
+    ) {
+      btMTCriar.disabled = false;
+      btMTAlterar.disabled = false;
+    } else {
+      btMTCriar.disabled = true;
+      btMTAlterar.disabled = true;
+    }
+  };
+  campoDescricao.onkeyup = liberaBotaoMT;
+  campoData.onchange = liberaBotaoMT;
+  
+  // Confirma a criação da tarefa
+  btMTCriar.onclick = function () {
+    let tarefa = {
+      descricao: campoDescricao.value,
+      data: campoData.value,
+    };
+    createTarefa(tarefa, mostraTabela);
+    modalEventos.style.display = "none";
+  };
+  
+  // Mostra a janela modal para edição de uma tarefa existente
+  btEditar.onclick = function () {
+    let selecoes = Array.from(
+      document.querySelectorAll("input[name=campoSelecao]")
+    );
+    let selecionado = selecoes.find((i) => i.checked == true);
+    if (selecionado) {
+      let tarefa = readTarefa(selecionado.value);
+      campoDescricao.value = tarefa.descricao;
+      campoData.value = tarefa.data;
+      campoID.value = tarefa.id;
+      campoDescricao.disabled = false;
+      campoData.disabled = false;
+      modalEventos.style.display = "block";
+      btMTCriar.style.display = "none";
+      btMTAlterar.style.display = "inline-block";
+      btMTExcluir.style.display = "none";
+      btMTAlterar.disabled = false;
+      campoDescricao.focus();
+    }
+  };
+  
+  // Confirma a alteração da tarefa
+  btMTAlterar.onclick = function () {
+    let tarefaEditada = {
+      id: campoID.value,
+      descricao: campoDescricao.value,
+      data: campoData.value,
+    };
+    updateTarefa(tarefaEditada);
+    modalEventos.style.display = "none";
+    mostraTabela();
+  };
+  
+  // Mostra a janela modal para exclusão de uma tarefa existente
+  btExcluir.onclick = function () {
+    let selecoes = Array.from(
+      document.querySelectorAll("input[name=campoSelecao]")
+    );
+    let selecionado = selecoes.find((i) => i.checked == true);
+    if (selecionado) {
+      let tarefa = readTarefa(selecionado.value);
+      campoDescricao.value = tarefa.descricao;
+      campoData.value = tarefa.data;
+      campoID.value = tarefa.id;
+      campoDescricao.disabled = true;
+      campoData.disabled = true;
+      modalEventos.style.display = "block";
+      btMTCriar.style.display = "none";
+      btMTAlterar.style.display = "none";
+      btMTExcluir.style.display = "inline-block";
+    }
+  };
+  
+  // Confirma a exclusão da tarefa
+  btMTExcluir.onclick = function () {
+    deleteTarefa(campoID.value);
+    modalEventos.style.display = "none";
+    mostraTabela();
+  };
+  
+  // Cancela a criação, alteração ou exclusão da tarefa
+  btMTCancelar.onclick = function () {
+    modalEventos.style.display = "none";
+  };
+  
+  // Configura o botão de fechar a janela modal
+  fechaModal.onclick = function () {
+    modalEventos.style.display = "none";
+  };
+  
+  // Ordenação pelas três colunas
+  th1.onclick = () => {
+    let dados = readTarefas();
+    dados.sort((a, b) =>
+      a.descricao.localeCompare(b.descricao, "pt-br", { sensitivity: "base" })
+    );
+    updateTarefas(dados);
+    mostraTabela();
+  };
+  th2.onclick = () => {
+    let dados = readTarefas();
+    dados.sort((a, b) =>
+      a.data.localeCompare(b.data, "pt-br", { sensitivity: "base" })
+    );
+    updateTarefas(dados);
+    mostraTabela();
+  };
+
+  // funções de apoio para formatar os valores da tabela
+
+  function formataData(d) {
+    [ano, mes, dia] = d.split("-");
+    return dia + "-" + mes + "-" + ano;
+  }
+  
+  
+  // Após preparar todo o código, desenha a versão preliminar da tabela, com dados já existentes
+  mostraTabela();
 
   
    
