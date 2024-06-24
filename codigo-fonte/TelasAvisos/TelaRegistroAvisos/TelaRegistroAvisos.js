@@ -102,7 +102,7 @@ function renderizarGrid(listaDeAvisos) {
         let element = contDivChildren[index + 1];
 
         element.children[1].innerHTML = aviso.aluno;
-        element.children[2].innerHTML = new Date(aviso.data).toDateString();
+        element.children[2].innerHTML = formatarData(new Date(aviso.data));
         element.children[3].innerHTML = aviso.tituloAviso;
         element.children[4].value = aviso.id;
     }
@@ -136,7 +136,7 @@ function renderizarLinha(aviso) {
 
     var col3 = document.createElement('div');
     col3.classList.add('col3');
-    col3.innerHTML = new Date(aviso.data).toDateString()
+    col3.innerHTML = formatarData (new Date(aviso.data));
     col3.addEventListener('mouseover', function() {
         hovear(this);
     });

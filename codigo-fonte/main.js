@@ -35,7 +35,7 @@ function adicionarAviso(aviso) {
 
 function obterUsuarioLogado() {
     let usuario = JSON.parse(localStorage.getItem('usuarioLogado'));
-  
+
     if (!!!usuario) {
         usuario = {
             id: 0,
@@ -56,7 +56,7 @@ function obterUsuarioLogado() {
     return usuario;
 }
 
-function iniciarListaDeUsuarios() { 
+function iniciarListaDeUsuarios() {
     let listaDeUsuarios = JSON.parse(localStorage.getItem('listaDeUsuarios'));
 
     if (!!!listaDeUsuarios) {
@@ -72,7 +72,7 @@ function iniciarListaDeUsuarios() {
     }
 }
 
-function popularListaDeUsuarios() { 
+function popularListaDeUsuarios() {
     let listaDeUsuarios = [];
 
     listaDeUsuarios.push({
@@ -110,7 +110,7 @@ function popularListaDeUsuarios() {
         nome: 'Joana Souza',
         email: 'joanasouza@gmail.com',
         escola: '',
-        nomesDeAluno: ['Maria','José'],
+        nomesDeAluno: ['Maria', 'José'],
         nomesResponsavel: '',
         anoEscolar: '',
         turma: '',
@@ -149,4 +149,24 @@ function usuarioExistente(dadosLogin) {
         localStorage.setItem('usuarioLogado', JSON.stringify(usuario));
         return true;
     }
+}
+
+function formatarData(currentDate) {
+
+    let day = currentDate.getDate();
+    let month = currentDate.getMonth() + 1;
+    let year = currentDate.getFullYear();
+
+    if (day < 10) {
+        day = '0' + day;
+    }
+
+    if (month < 10) {
+        month = '0' + month;
+    }
+
+    let brazilianDate = `${day}/${month}/${year}`;
+    return brazilianDate;
+
+
 }
