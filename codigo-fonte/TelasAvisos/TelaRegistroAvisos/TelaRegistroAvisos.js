@@ -79,11 +79,11 @@ function montarLayout() {
     let listaDeAvisos = JSON.parse(localStorage.getItem('listaDeAvisos'));
 
     if (aba === 'recebidos') {
-        listaDeAvisos = listaDeAvisos.filter(x => x => !!!x.dataExclusao && x.perfil === 'resp');
+        listaDeAvisos = listaDeAvisos.filter(x => !!!x.dataExclusao);
         renderizarGrid(listaDeAvisos);
     }
     else if (aba === 'enviados') {
-        listaDeAvisos = listaDeAvisos.filter(x => x => !!!x.dataExclusao && x.idCriador === obterUsuarioLogado().id);
+        listaDeAvisos = listaDeAvisos.filter(x => !!!x.dataExclusao && x.idCriador === obterUsuarioLogado().id);
         renderizarGrid(listaDeAvisos);
     }
     else if (aba === 'lixeira') {
