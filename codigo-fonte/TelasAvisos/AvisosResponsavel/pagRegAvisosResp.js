@@ -30,6 +30,16 @@ function preencherListaAlunos() {
 }
 
 function sair() {
+    let modal = document.getElementById('myModal');
+    modal.style.display = 'block';
+}
+
+function fecharModal() {
+    let modal = document.getElementById("myModal");
+    modal.style.display = "none";
+}
+
+function sim() {
     window.location.href = '../TelaRegistroAvisos/TelaRegistroAvisos.html'
 }
 

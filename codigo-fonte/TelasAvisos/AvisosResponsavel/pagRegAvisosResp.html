@@ -53,6 +53,21 @@
         <input type="button" name="sairAviso" value="Sair" class="botaoSairAviso" onclick="sair()">
         
     </main>
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="fecharModal()">&times;</span>
+          <div class="modal-b">
+            <h3 id="modal-header">Deseja mesmo sair? As alterações serão perdidas.</h2>
+                <div class="modal-btns">
+                    <button class="btns" onclick="sim()">Sim</button>
+                    <button class="btns" onclick="fecharModal()">Não</button>
+                </div>
+            
+          </div>
+        </div>
+        <input id="aviso-aberto" type="hidden">
+    </div>
     
     <footer>
         <img src="iconEduSync.png" width="30" height="25">

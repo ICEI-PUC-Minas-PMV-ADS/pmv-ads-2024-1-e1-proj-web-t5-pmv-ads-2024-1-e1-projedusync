@@ -13,15 +13,6 @@ function iniciarListaDeAvisos() {
 function popularlistaDeAvisos() {
     let listaDeAvisos = [];
 
-    listaDeAvisos.push({
-        tituloAviso: 'Aluna vai precisar se ausentar por doença.',
-        campoAviso: 'Minha filha está com gripe',
-        perfil: 'resp',
-        idCriador: 2,
-        data: new Date(),
-        aluno: 'Maria'
-    });
-
     return listaDeAvisos;
 }
 
