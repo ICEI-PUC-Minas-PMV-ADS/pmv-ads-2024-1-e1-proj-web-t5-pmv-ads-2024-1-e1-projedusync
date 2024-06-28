@@ -10,10 +10,18 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 
 Video de 3min 
-https://youtu.be/ILEOSIMUA-4
+
+
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/e1662730-a7f4-4fe5-b6b1-7103fb854b38
+
+
+
 
 Video de 10min
-https://youtu.be/qiTdW0ppYB4
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t5-pmv-ads-2024-1-e1-projedusync/assets/165742569/36ccfbc1-a515-4e80-9df4-2cb7a63450d8
 
 ## Hospedagem
 A plataforma GitHub Pages foi usada como ambiente de hospedagem do site do projeto na seguinte URL:
